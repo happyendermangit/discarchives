@@ -1,0 +1,287 @@
+[
+    {
+        "id": "1232852290197655573",
+        "config": {
+            "quest_id": "1232852290197655573",
+            "config_version": 1,
+            "expires_at": "2024-05-21T23:59:59+00:00",
+            "stream_duration_requirement_minutes": 15,
+            "messages": {
+                "quest_name": "V2.2",
+                "reward_name": "V2.2 Bundle",
+                "reward_name_with_article": "the V2.2 Bundle",
+                "reward_redemption_instructions_by_platform": {
+                    "0": "Redemption Code Content: Stellar Jade ×30, Credit ×20,000, Lost Gold Fragment ×4, Condensed Aether ×5, Traveler's Guide ×3. The Stellar Jade rewards are limited to 300,000 and will be available exclusively to the first 300,000 Trailblazers who successfully complete the Quest. To redeem your rewards, please visit the official website of Honkai: Star Rail through the [Redemption Page](https://hsr.hoyoverse.com/gift). Once there, log in to your account, select the correct server, enter the redemption code, and click the \"Redeem\" button. Once the redemption is successful, the rewards will be sent to you via in-game mail. Remember to log in to the game to claim them. The redemption code will expire on 2024/06/06 0:00:00 (UTC+8). We highly recommend redeeming it as soon as possible. The Terms of Service and Privacy Policy of Discord, as well as the Terms of Service and Privacy Policy of HoYoverse Account, are applicable to this event. You should fully understand and abide by the aforementioned agreements before engaging in the event."
+                },
+                "game_title": "Honkai Star Rail",
+                "game_publisher": "HoYoverse"
+            },
+            "application_id": "1121201675240210523",
+            "application_name": "Honkai Star Rail",
+            "get_game_link": "https://hsr.hoyoverse.com/?utm_source=sns&utm_medium=discord",
+            "rewards_config": {
+                "assignment_method": 2,
+                "rewards": [
+                    {
+                        "sku_id": "1232851245103054848",
+                        "tag": 1,
+                        "messages": {
+                            "name": "V2.2 Bundle + Stellar Jade x30",
+                            "name_with_article": "the V2.2 Bundle + Stellar Jade x30",
+                            "redemption_instructions_by_platform": {
+                                "0": "Redemption Code Content: Stellar Jade ×30, Credit ×20,000, Lost Gold Fragment ×4, Condensed Aether ×5, Traveler's Guide ×3. The Stellar Jade rewards are limited to 300,000 and will be available exclusively to the first 300,000 Trailblazers who successfully complete the Quest. To redeem your rewards, please visit the official website of Honkai: Star Rail through the [Redemption Page](https://hsr.hoyoverse.com/gift). Once there, log in to your account, select the correct server, enter the redemption code, and click the \"Redeem\" button. Once the redemption is successful, the rewards will be sent to you via in-game mail. Remember to log in to the game to claim them. The redemption code will expire on 2024/06/06 0:00:00 (UTC+8). We highly recommend redeeming it as soon as possible. The Terms of Service and Privacy Policy of Discord, as well as the Terms of Service and Privacy Policy of HoYoverse Account, are applicable to this event. You should fully understand and abide by the aforementioned agreements before engaging in the event."
+                            }
+                        },
+                        "asset": "reward.jpg",
+                        "approximate_count": 300000
+                    },
+                    {
+                        "sku_id": "1232851302426345532",
+                        "tag": 1,
+                        "messages": {
+                            "name": "V2.2 Bundle",
+                            "name_with_article": "the V2.2 Bundle",
+                            "redemption_instructions_by_platform": {
+                                "0": "Redemption Code Content: Stellar Jade ×30, Credit ×20,000, Lost Gold Fragment ×4, Condensed Aether ×5, Traveler's Guide ×3. The Stellar Jade rewards are limited to 300,000 and will be available exclusively to the first 300,000 Trailblazers who successfully complete the Quest. To redeem your rewards, please visit the official website of Honkai: Star Rail through the [Redemption Page](https://hsr.hoyoverse.com/gift). Once there, log in to your account, select the correct server, enter the redemption code, and click the \"Redeem\" button. Once the redemption is successful, the rewards will be sent to you via in-game mail. Remember to log in to the game to claim them. The redemption code will expire on 2024/06/06 0:00:00 (UTC+8). We highly recommend redeeming it as soon as possible. The Terms of Service and Privacy Policy of Discord, as well as the Terms of Service and Privacy Policy of HoYoverse Account, are applicable to this event. You should fully understand and abide by the aforementioned agreements before engaging in the event."
+                            }
+                        },
+                        "asset": "reward.jpg",
+                        "approximate_count": null
+                    }
+                ]
+            },
+            "reward_code_platforms": [
+                0
+            ],
+            "reward_code_expires_at": "2024-06-05T16:00:00+00:00",
+            "colors": {
+                "primary": "#5D4EBC",
+                "secondary": "#7C3DB1"
+            },
+            "assets": {
+                "reward_tile": "reward.jpg",
+                "hero": "hero.jpg",
+                "quest_bar_hero": "quests_bar_hero.jpg",
+                "game_tile": "game_tile.png",
+                "logotype": "game_logotype.png"
+            },
+            "in_game_quest_config": null,
+            "variants": [
+                1,
+                2
+            ]
+        },
+        "user_status": null,
+        "targeted_content": [],
+        "preview": false
+    },
+    {
+        "id": "1227767407154561034",
+        "config": {
+            "quest_id": "1227767407154561034",
+            "config_version": 1,
+            "expires_at": "2024-05-07T23:59:59+00:00",
+            "stream_duration_requirement_minutes": 15,
+            "messages": {
+                "quest_name": "V4.6",
+                "reward_name": "V4.6 Bundle",
+                "reward_name_with_article": "the V4.6 Bundle",
+                "reward_redemption_instructions_by_platform": {
+                    "0": " The V4.6 Bundle contains Mora ×20,000, Sanctifying Unction ×4, Mystic Enhancement Ore ×5, and Hero's Wit ×3. The first 300k to redeem will also receive Primogems x30.\n\nTo redeem, visit the official Genshin Impact website's [code redemption page](https://genshin.hoyoverse.com/en/gift), log in to your game account, then enter the redemption code as prompted. You'll receive the bundle via in-game mail. Redemption code expires 05/23/2024 0:00:00 (UTC+8). Genshin Impact's Terms of Service and Privacy Policy apply. See the [help center article](https://support.discord.com/hc/articles/22908324765591) for full offer terms."
+                },
+                "game_title": "Genshin Impact",
+                "game_publisher": "HoYoverse"
+            },
+            "application_id": "762434991303950386",
+            "application_name": "Genshin Impact",
+            "get_game_link": "https://hoyo.link/9cMiFBAL",
+            "rewards_config": {
+                "assignment_method": 2,
+                "rewards": [
+                    {
+                        "sku_id": "1227767447034134609",
+                        "tag": 1,
+                        "messages": {
+                            "name": "V4.6 Bundle + Primogems x30",
+                            "name_with_article": "the V4.6 Bundle + Primogems x30",
+                            "redemption_instructions_by_platform": {
+                                "0": " The V4.6 Bundle contains Mora ×20,000, Sanctifying Unction ×4, Mystic Enhancement Ore ×5, and Hero's Wit ×3. The first 300k to redeem will also receive Primogems x30.\n\nTo redeem, visit the official Genshin Impact website's [code redemption page](https://genshin.hoyoverse.com/en/gift), log in to your game account, then enter the redemption code as prompted. You'll receive the bundle via in-game mail. Redemption code expires 05/23/2024 0:00:00 (UTC+8). Genshin Impact's Terms of Service and Privacy Policy apply. See the [help center article](https://support.discord.com/hc/articles/22908324765591) for full offer terms."
+                            }
+                        },
+                        "asset": "reward.png",
+                        "approximate_count": 300000
+                    },
+                    {
+                        "sku_id": "1227767504009691187",
+                        "tag": 1,
+                        "messages": {
+                            "name": "V4.6 Bundle",
+                            "name_with_article": "the V4.6 Bundle",
+                            "redemption_instructions_by_platform": {
+                                "0": " The V4.6 Bundle contains Mora ×20,000, Sanctifying Unction ×4, Mystic Enhancement Ore ×5, and Hero's Wit ×3. The first 300k to redeem will also receive Primogems x30.\n\nTo redeem, visit the official Genshin Impact website's [code redemption page](https://genshin.hoyoverse.com/en/gift), log in to your game account, then enter the redemption code as prompted. You'll receive the bundle via in-game mail. Redemption code expires 05/23/2024 0:00:00 (UTC+8). Genshin Impact's Terms of Service and Privacy Policy apply. See the [help center article](https://support.discord.com/hc/articles/22908324765591) for full offer terms."
+                            }
+                        },
+                        "asset": "reward.png",
+                        "approximate_count": null
+                    }
+                ]
+            },
+            "reward_code_platforms": [
+                0
+            ],
+            "reward_code_expires_at": "2024-05-22T16:00:00+00:00",
+            "colors": {
+                "primary": "#0B3255",
+                "secondary": "#6E1224"
+            },
+            "assets": {
+                "reward_tile": "reward.png",
+                "hero": "hero.svg",
+                "quest_bar_hero": "quests_bar_hero.svg",
+                "game_tile": "game_tile.png",
+                "logotype": "game_logotype.png"
+            },
+            "in_game_quest_config": null,
+            "variants": [
+                1
+            ]
+        },
+        "user_status": {
+            "user_id": "1083437693347827764",
+            "quest_id": "1227767407154561034",
+            "enrolled_at": "2024-04-24T18:31:50.106332+00:00",
+            "completed_at": null,
+            "claimed_at": null,
+            "claimed_tier": null,
+            "last_stream_heartbeat_at": null,
+            "stream_progress_seconds": 0,
+            "dismissed_quest_content": 0,
+            "progress": {}
+        },
+        "targeted_content": [],
+        "preview": false
+    },
+    {
+        "id": "1227395355193118750",
+        "config": {
+            "quest_id": "1227395355193118750",
+            "config_version": 1,
+            "expires_at": "2024-04-24T06:59:59+00:00",
+            "stream_duration_requirement_minutes": 15,
+            "messages": {
+                "quest_name": "Mokoko",
+                "reward_name": "Mokoko Avatar Decoration",
+                "reward_name_with_article": "a Mokoko Avatar Decoration",
+                "reward_redemption_instructions_by_platform": {
+                    "0": "This collectible can be redeemed on Discord! Go to your Gift Inventory to redeem and equip."
+                },
+                "game_title": "Lost Ark",
+                "game_publisher": "Amazon Games"
+            },
+            "application_id": "940810636273795162",
+            "application_name": "Lost Ark",
+            "get_game_link": "https://playlostark.com/forward-link?id=thaemine-unleashed",
+            "rewards_config": {
+                "assignment_method": 1,
+                "rewards": [
+                    {
+                        "sku_id": "1226939756617793606",
+                        "tag": 3,
+                        "messages": {
+                            "name": "Mokoko Avatar Decoration",
+                            "name_with_article": "a Mokoko Avatar Decoration"
+                        }
+                    }
+                ]
+            },
+            "reward_code_platforms": [
+                0
+            ],
+            "reward_code_expires_at": "2024-05-24T06:59:59+00:00",
+            "colors": {
+                "primary": "#030D23",
+                "secondary": "#203766"
+            },
+            "assets": {
+                "reward_tile": "reward_blue_128.webm",
+                "hero": "hero.png",
+                "quest_bar_hero": "quests_bar_hero.png",
+                "game_tile": "game_tile.png",
+                "logotype": "game_logotype.svg"
+            },
+            "in_game_quest_config": null,
+            "variants": []
+        },
+        "user_status": {
+            "user_id": "1083437693347827764",
+            "quest_id": "1227395355193118750",
+            "enrolled_at": "2024-04-17T19:27:37.098611+00:00",
+            "completed_at": "2024-04-17T20:02:06.617025+00:00",
+            "claimed_at": "2024-04-17T20:05:42.294609+00:00",
+            "claimed_tier": null,
+            "last_stream_heartbeat_at": "2024-04-17T20:02:06.617025+00:00",
+            "stream_progress_seconds": 903,
+            "dismissed_quest_content": 0,
+            "progress": {}
+        },
+        "targeted_content": [],
+        "preview": false
+    },
+    {
+        "id": "1218004004206804992",
+        "config": {
+            "quest_id": "1218004004206804992",
+            "config_version": 1,
+            "expires_at": "2024-04-16T11:59:59+00:00",
+            "stream_duration_requirement_minutes": 15,
+            "messages": {
+                "quest_name": "Skill Issue",
+                "reward_name": "Skill Issue Set",
+                "reward_name_with_article": "the Skill Issue Set",
+                "reward_redemption_instructions_by_platform": {
+                    "0": "To redeem your THE FINALS gift code, log in to the [Embark Portal](https://id.embark.games/). Visit https://id.embark.games/ and log in via the platform where you play the game (Steam, PlayStation, or Xbox). Navigate to “Redeem Gift Code” and enter your code in the field provided. Press Redeem to receive your gift the next time you start the game. Please note: gift codes may expire. Unique codes can only be redeemed one time."
+                },
+                "game_title": "THE FINALS",
+                "game_publisher": "Embark Studios"
+            },
+            "application_id": "1182713227491147776",
+            "application_name": "THE FINALS",
+            "get_game_link": "https://www.reachthefinals.com/",
+            "rewards_config": {
+                "assignment_method": 1,
+                "rewards": []
+            },
+            "reward_code_platforms": [
+                0
+            ],
+            "reward_code_expires_at": "2024-05-16T11:59:59+00:00",
+            "colors": {
+                "primary": "#E944D4",
+                "secondary": "#5318A7"
+            },
+            "assets": {
+                "reward_tile": "reward.png",
+                "hero": "hero.png",
+                "quest_bar_hero": "quests_bar_hero.png",
+                "game_tile": "game_tile.png",
+                "logotype": "game_logotype.png"
+            },
+            "in_game_quest_config": null,
+            "variants": []
+        },
+        "user_status": {
+            "user_id": "1083437693347827764",
+            "quest_id": "1218004004206804992",
+            "enrolled_at": "2024-04-03T14:23:02.734945+00:00",
+            "completed_at": null,
+            "claimed_at": null,
+            "claimed_tier": null,
+            "last_stream_heartbeat_at": null,
+            "stream_progress_seconds": 0,
+            "dismissed_quest_content": 0,
+            "progress": {}
+        },
+        "targeted_content": [],
+        "preview": false
+    }
+]

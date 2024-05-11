@@ -1,0 +1,23 @@
+.quests {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+}
+
+.quest-reward-logo {
+  width: 120px;
+  height: 120px;
+}
+
+.archives {
+  position: relative;
+  z-index: 1000;
+}
+
+.pages {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
