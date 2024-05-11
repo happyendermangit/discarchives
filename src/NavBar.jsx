@@ -10,7 +10,7 @@ const NavBar = () => {
             <a href="/">Home page</a>
           </li>
           <li>
-            <a href="/">Github</a>
+            <a href="https://github.com/happyendermangit/discarchives">Github</a>
           </li>
           <li>
             <details className="archives">
