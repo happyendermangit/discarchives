@@ -1,4 +1,69 @@
 [
+            {
+            "id": "1235258834524700703",
+            "config": {
+                "quest_id": "1235258834524700703",
+                "config_version": 1,
+                "expires_at": "2024-05-28T23:59:59+00:00",
+                "stream_duration_requirement_minutes": 15,
+                "messages": {
+                    "quest_name": "Erangel Classic",
+                    "reward_name": "OG is Back Pack",
+                    "reward_name_with_article": "the OG is Back Pack",
+                    "reward_redemption_instructions_by_platform": {
+                        "4": "Redeem the code below on PUBG's in-game redemption page to claim the OG is Back Pack"
+                    },
+                    "game_title": "PUBG: BATTLEGROUNDS",
+                    "game_publisher": "Krafton"
+                },
+                "application_id": "356873622985506820",
+                "application_name": "PLAYERUNKNOWN'S BATTLEGROUNDS",
+                "get_game_link": "https://pubg.com",
+                "rewards_config": {
+                    "assignment_method": 1,
+                    "rewards": [
+                        {
+                            "sku_id": "1235698926619852831",
+                            "tag": 1,
+                            "messages": {
+                                "name": "OG is Back Pack",
+                                "name_with_article": "the OG is Back Pack",
+                                "redemption_instructions_by_platform": {
+                                    "4": "Redeem the code below on PUBG's in-game redemption page to claim the OG is Back Pack"
+                                }
+                            },
+                            "asset": "reward.png",
+                            "approximate_count": 1000000
+                        }
+                    ]
+                },
+                "reward_code_platforms": [
+                    4
+                ],
+                "reward_code_expires_at": "2024-06-27T23:59:59+00:00",
+                "colors": {
+                    "primary": "#996D08",
+                    "secondary": "#1A1A1A"
+                },
+                "assets": {
+                    "reward_tile": "reward.png",
+                    "hero": "hero.png",
+                    "quest_bar_hero": "quests_bar_hero.png",
+                    "game_tile": "game_tile_3.png",
+                    "logotype": "game_logotype_2.png"
+                },
+                "in_game_quest_config": null,
+                "variants": [
+                    2
+                ],
+                "supplementary_application_ids": [
+                    "530196305138417685"
+                ]
+            },
+            "user_status": null,
+            "targeted_content": [],
+            "preview": false
+        },
     {
         "id": "1232852290197655573",
         "config": {
