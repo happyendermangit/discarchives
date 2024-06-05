@@ -36,7 +36,9 @@ for (const effect of userProfileEffects["profile_effect_configs"]) {
 	if (!newPreviews[categoryName]) {
 		newPreviews[categoryName] = {};
 	}
+
 	newPreviews[categoryName][effectName] = {
+		...(effectCategorySKUMap[effectSKU] ? {} : { title: effect.title, description: effect.description }),
 		sku_id: effectSKU, // Keep the SKU for cases where the effect name has been renamed like Feelin' 90s -> Feelin' 70s
 		thumbnail: effect.thumbnailPreviewSrc,
 		animation: effect.effects.filter(effect => ANIMATION_REGEX.test(effect.src))[0]?.src ?? effect.effects.filter(effect => /loop.png/i.test(effect.src))[0]?.src ?? undefined,

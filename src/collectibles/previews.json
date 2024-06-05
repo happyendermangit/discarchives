@@ -1987,6 +1987,8 @@
   },
   "Uncategorized": {
     "Space Evader": {
+      "title": "Space Evader",
+      "description": "That was the best flying I've seen to date - right up to the part where you got hit.",
       "sku_id": "1245088094437507163",
       "thumbnail": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-05-29/space-evader/thumbnail.png",
       "animation": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-05-29/space-evader/intro_bg.png",
@@ -2050,6 +2052,8 @@
       ]
     },
     "Turbo Drive": {
+      "title": "Turbo Drive",
+      "description": "Give your rivals a cheeky wave from the rearview.",
       "sku_id": "1245088205330710539",
       "thumbnail": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-05-29/turbo-drive/thumbnail.png",
       "animation": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-05-29/turbo-drive/intro.png",
@@ -2099,6 +2103,8 @@
       ]
     },
     "Twinkle Trails": {
+      "title": "Twinkle Trails",
+      "description": "Chase the stars to collect them all.",
       "sku_id": "1245088254647205991",
       "thumbnail": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-05-29/twinkle-trails/thumbnail.png",
       "animation": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-05-29/twinkle-trails/intro.png",

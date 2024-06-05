@@ -170,8 +170,11 @@ function CollectiblesPage() {
             <h1>
               Profile effects (
               {
-                category.products.filter(
-                  (product) => product.items[0].type === 1
+                (category.name === "Uncategorized"
+                ? Array.from(Object.values(previews[category.name]) || []).concat(
+                    category.products.filter((product) => product.items[0].type === 1)
+                  )
+                : category.products.filter((product) => product.items[0].type === 1)
                 ).length
               }
               )
@@ -189,25 +192,30 @@ function CollectiblesPage() {
                 </tr>
               </thead>
               <tbody>
-                {Object.keys(previewsFlattened).length > 0 && category.products
-                  .filter((product) => product.items[0].type === 1)
+                {Object.keys(previewsFlattened).length > 0 &&
+                  (category.name === "Uncategorized"
+                  ? Array.from(Object.values(previews[category.name]) || []).concat(
+                      category.products.filter((product) => product.items[0].type === 1)
+                    )
+                  : category.products.filter((product) => product.items[0].type === 1)
+                  )
                   .map((product) => (
                     <tr key={product.sku_id}>
-                      <td>{product.name}</td>
-                      <td>{product.summary}</td>
+                      <td>{product.price ? product.name : product.title}</td>
+                      <td>{product.price ? product.summary : product.description}</td>
                       <td> 
                         <ProfileEffectPreview product={getProfileEffect(product)}></ProfileEffectPreview>
                       </td>
-                      <td>{product.items[0].sku_id}</td>
+                      <td>{product.price ? product.items[0].sku_id : product.sku_id}</td>
                       <td>
-                        {usePrice(
+                        {product.price ? usePrice(
                           product.prices[0].countryPrices.prices[0].amount
-                        )}
+                        ) : "N/A"}
                       </td>
                       <td>
-                        {usePrice(
+                        {product.price ? usePrice(
                           product.prices[4].countryPrices.prices[0].amount
-                        )}
+                        ) : "N/A"}
                       </td>
                     </tr>
                   ))}
