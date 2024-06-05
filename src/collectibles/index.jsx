@@ -1,17 +1,12 @@
-import { useRef, useState } from "react";
-import { collectibles, previews } from "./collectibles.js";
+import { useEffect, useRef, useState } from "react";
 import CloseIcon from "./CloseIcon.jsx";
 import Preview from "./Preview.jsx";
 import CategoryBanner from "./CategoryBanner.jsx";
 import CollectiblesIcon from "../icons/CollectiblesIcon.svg"
 import NavBar from "../NavBar.jsx";
 import "./App.css";
-
-
-function getProfileEffectPreview(product) {
-  let preview = previews[product.name];
-  return preview ?? "";
-}
+import { collectibles } from "./collectibles";
+import previews from "./previews.json";
 
 function usePrice(price) {
   let pricestr = new String(price);
@@ -32,6 +27,21 @@ function usePrice(price) {
 function CollectiblesPage() {
   const modalRef = useRef(null);
   const [previewAvatar, setPreviewAvatarUrl] = useState(null);
+  const [previewsFlattened, setPreviewsFlattened] = useState({});
+
+  useEffect(() => {
+    setPreviewsFlattened(Object.assign({}, ...Object.values(previews)));
+  }, [])
+
+  function getProfileEffectPreview(product) {
+    let preview = previewsFlattened[product.name];
+    if (!preview) return "";
+    if (preview.animation) {
+      return preview.animation;
+    } else {
+      return preview.thumbnail;
+    }
+  }
 
   function openSettingsModal() {
     if (modalRef.current) {
@@ -90,7 +100,7 @@ function CollectiblesPage() {
         </div>
       </dialog>
       <center>
-        {collectibles.map((category) => (
+        {Object.values(collectibles).map((category) => (
           <div key={category.sku_id}>
             <CategoryBanner
               key={category.sku_id}
@@ -173,8 +183,9 @@ function CollectiblesPage() {
                       <td>{product.summary}</td>
                       <td>
                         <img
-                          src={previews[product.name] ?? ""}
+                          src={getProfileEffectPreview(product) ?? ""}
                           style={{ width: "fit-content", height: "500px" }}
+                          onMouseOver={(event) => event.target.src = `${getProfileEffectPreview(product)}?t=${Date.now()}` ?? ""}
                         ></img>
                       </td>
                       <td>{product.items[0].sku_id}</td>
