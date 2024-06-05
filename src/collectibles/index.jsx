@@ -201,19 +201,19 @@ function CollectiblesPage() {
                   )
                   .map((product) => (
                     <tr key={product.sku_id}>
-                      <td>{product.price ? product.name : product.title}</td>
-                      <td>{product.price ? product.summary : product.description}</td>
+                      <td>{product.prices ? product.name : product.title}</td>
+                      <td>{product.prices ? product.summary : product.description}</td>
                       <td> 
                         <ProfileEffectPreview product={getProfileEffect(product)}></ProfileEffectPreview>
                       </td>
-                      <td>{product.price ? product.items[0].sku_id : product.sku_id}</td>
+                      <td>{product.prices ? product.items[0].sku_id : product.sku_id}</td>
                       <td>
-                        {product.price ? usePrice(
+                        {product.prices ? usePrice(
                           product.prices[0].countryPrices.prices[0].amount
                         ) : "N/A"}
                       </td>
                       <td>
-                        {product.price ? usePrice(
+                        {product.prices ? usePrice(
                           product.prices[4].countryPrices.prices[0].amount
                         ) : "N/A"}
                       </td>
