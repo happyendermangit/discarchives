@@ -128,3 +128,6 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# Response from https://discord.com/api/v9/user-profile-effects
+src/collectibles/user-profile-effects.json

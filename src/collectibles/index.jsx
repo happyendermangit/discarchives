@@ -35,7 +35,13 @@ function CollectiblesPage() {
 
   function getProfileEffectPreview(product) {
     let preview = previewsFlattened[product.name];
-    if (!preview) return "";
+    if (!preview) {
+      // It could be the case where a product has been renamed so we need to check the sku_id
+      preview = Object.values(previewsFlattened).filter(preview => preview.sku_id === product.sku_id)[0];
+      if (!preview) {
+        return "";
+      }
+    }
     if (preview.animation) {
       return preview.animation;
     } else {
@@ -100,7 +106,7 @@ function CollectiblesPage() {
         </div>
       </dialog>
       <center>
-        {Object.values(collectibles).map((category) => (
+        {Object.values(collectibles).reverse().map((category) => (
           <div key={category.sku_id}>
             <CategoryBanner
               key={category.sku_id}
