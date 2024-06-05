@@ -3,305 +3,2135 @@
     "Boost Relic": {
       "sku_id": "1139323098370424932",
       "thumbnail": "https://cdn.discordapp.com/assets/profile_effects/effects/2023-11-7/boost-relic/thumbnail.png",
-      "animation": "https://cdn.discordapp.com/assets/profile_effects/effects/2023-11-20/boost-relic/intro.png"
+      "animation": "https://cdn.discordapp.com/assets/profile_effects/effects/2023-11-20/boost-relic/intro.png",
+      "effects": [
+        {
+          "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2023-11-20/boost-relic/intro.png",
+          "loop": false,
+          "height": 880,
+          "width": 450,
+          "duration": 2880,
+          "start": 0,
+          "loopDelay": 0,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "zIndex": 100
+        },
+        {
+          "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2023-11-20/boost-relic/loop.png",
+          "loop": true,
+          "height": 880,
+          "width": 450,
+          "duration": 2880,
+          "start": 5760,
+          "loopDelay": 5760,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "zIndex": 101
+        }
+      ]
     },
     "Cyberspace": {
       "sku_id": "1139323103193878569",
       "thumbnail": "https://cdn.discordapp.com/assets/profile_effects/effects/2023-11-7/cyberspace/thumbnail.png",
-      "animation": "https://cdn.discordapp.com/assets/profile_effects/effects/2023-11-20/cyberspace/intro.png"
+      "animation": "https://cdn.discordapp.com/assets/profile_effects/effects/2023-11-20/cyberspace/intro.png",
+      "effects": [
+        {
+          "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2023-11-20/cyberspace/intro.png",
+          "loop": false,
+          "height": 880,
+          "width": 450,
+          "duration": 2880,
+          "start": 0,
+          "loopDelay": 0,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "zIndex": 100
+        },
+        {
+          "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2023-11-20/cyberspace/loop.png",
+          "loop": true,
+          "height": 880,
+          "width": 450,
+          "duration": 2880,
+          "start": 5760,
+          "loopDelay": 5760,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "zIndex": 101
+        }
+      ]
     }
   },
   "Fantasy": {
     "Hydro Blast": {
       "sku_id": "1139323092645183591",
       "thumbnail": "https://cdn.discordapp.com/assets/profile_effects/effects/b17d139f2e9/splash/thumbnail.png",
-      "animation": "https://cdn.discordapp.com/assets/profile_effects/effects/b17d139f2e9/splash/intro.png"
+      "animation": "https://cdn.discordapp.com/assets/profile_effects/effects/b17d139f2e9/splash/intro.png",
+      "effects": [
+        {
+          "src": "https://cdn.discordapp.com/assets/profile_effects/effects/b17d139f2e9/splash/intro.png",
+          "loop": false,
+          "height": 880,
+          "width": 450,
+          "duration": 2880,
+          "start": 0,
+          "loopDelay": 0,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "zIndex": 100
+        },
+        {
+          "src": "https://cdn.discordapp.com/assets/profile_effects/effects/b17d139f2e9/splash/loop.png",
+          "loop": true,
+          "height": 880,
+          "width": 450,
+          "duration": 2880,
+          "start": 5760,
+          "loopDelay": 5760,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "zIndex": 101
+        }
+      ]
     },
     "Sakura Dreams": {
       "sku_id": "1139323093991575696",
       "thumbnail": "https://cdn.discordapp.com/assets/profile_effects/effects/b17d139f2e9/sakura/thumbnail.png",
-      "animation": "https://cdn.discordapp.com/assets/profile_effects/effects/2023-12-13/sakura/intro.png"
+      "animation": "https://cdn.discordapp.com/assets/profile_effects/effects/2023-12-13/sakura/intro.png",
+      "effects": [
+        {
+          "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2023-12-13/sakura/intro.png",
+          "loop": true,
+          "height": 880,
+          "width": 450,
+          "duration": 2880,
+          "start": 0,
+          "loopDelay": 0,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "zIndex": 100
+        },
+        {
+          "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2e46d5d2d9e/sakura/loop.png",
+          "loop": true,
+          "height": 880,
+          "width": 450,
+          "duration": 2880,
+          "start": 2880,
+          "loopDelay": 2880,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "zIndex": 101
+        }
+      ]
     },
     "Mystic Vines": {
       "sku_id": "1139323099251232828",
       "thumbnail": "https://cdn.discordapp.com/assets/profile_effects/effects/2e46d5d2d9e/vines/thumbnail.png",
-      "animation": "https://cdn.discordapp.com/assets/profile_effects/effects/2023-10-11/vines/intro.png"
+      "animation": "https://cdn.discordapp.com/assets/profile_effects/effects/2023-10-11/vines/intro.png",
+      "effects": [
+        {
+          "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2023-10-11/vines/intro.png",
+          "loop": true,
+          "height": 880,
+          "width": 450,
+          "duration": 3071,
+          "start": 0,
+          "loopDelay": 0,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "zIndex": 100
+        },
+        {
+          "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2023-10-11/vines/loop.png",
+          "loop": true,
+          "height": 880,
+          "width": 450,
+          "duration": 2988,
+          "start": 2905,
+          "loopDelay": 0,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "zIndex": 101
+        },
+        {
+          "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2023-10-11/vines/intro-glow.png",
+          "loop": false,
+          "height": 880,
+          "width": 450,
+          "duration": 2573,
+          "start": 1666,
+          "loopDelay": 0,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "zIndex": 102
+        }
+      ]
     },
     "Pixie Dust": {
       "sku_id": "1139323099687436419",
       "thumbnail": "https://cdn.discordapp.com/assets/profile_effects/effects/b17d139f2e9/fairy/thumbnail.png",
-      "animation": "https://cdn.discordapp.com/assets/profile_effects/effects/b17d139f2e9/fairy/loop.png"
+      "animation": "https://cdn.discordapp.com/assets/profile_effects/effects/b17d139f2e9/fairy/loop.png",
+      "effects": [
+        {
+          "src": "https://cdn.discordapp.com/assets/profile_effects/effects/b17d139f2e9/fairy/loop.png",
+          "loop": true,
+          "height": 880,
+          "width": 450,
+          "duration": 2880,
+          "start": 0,
+          "loopDelay": 2880,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "zIndex": 100
+        }
+      ]
     }
   },
   "Anime": {
     "Shatter": {
       "sku_id": "1139323093551165533",
       "thumbnail": "https://cdn.discordapp.com/assets/profile_effects/effects/b17d139f2e9/earthquake/thumbnail.png",
-      "animation": "https://cdn.discordapp.com/assets/profile_effects/effects/2023-10-5/earthquake/intro.png"
+      "animation": "https://cdn.discordapp.com/assets/profile_effects/effects/2023-10-5/earthquake/intro.png",
+      "effects": [
+        {
+          "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2023-10-5/earthquake/intro.png",
+          "loop": true,
+          "height": 880,
+          "width": 450,
+          "duration": 2880,
+          "start": 0,
+          "loopDelay": 0,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "zIndex": 100
+        },
+        {
+          "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2e46d5d2d9e/earthquake/loop.png",
+          "loop": true,
+          "height": 880,
+          "width": 450,
+          "duration": 2880,
+          "start": 2880,
+          "loopDelay": 2880,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "zIndex": 101
+        }
+      ]
     },
     "Magic Hearts": {
       "sku_id": "1139323100568244355",
       "thumbnail": "https://cdn.discordapp.com/assets/profile_effects/effects/b17d139f2e9/magic-girl/thumbnail.png",
-      "animation": "https://cdn.discordapp.com/assets/profile_effects/effects/b17d139f2e9/magic-girl/intro.png"
+      "animation": "https://cdn.discordapp.com/assets/profile_effects/effects/b17d139f2e9/magic-girl/intro.png",
+      "effects": [
+        {
+          "src": "https://cdn.discordapp.com/assets/profile_effects/effects/b17d139f2e9/magic-girl/intro.png",
+          "loop": false,
+          "height": 880,
+          "width": 450,
+          "duration": 2880,
+          "start": 0,
+          "loopDelay": 0,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "zIndex": 100
+        },
+        {
+          "src": "https://cdn.discordapp.com/assets/profile_effects/effects/b17d139f2e9/magic-girl/loop.png",
+          "loop": true,
+          "height": 880,
+          "width": 450,
+          "duration": 2880,
+          "start": 5760,
+          "loopDelay": 5760,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "zIndex": 101
+        }
+      ]
     },
     "Power Surge": {
       "sku_id": "1139323101881061466",
       "thumbnail": "https://cdn.discordapp.com/assets/profile_effects/effects/b17d139f2e9/sayan/thumbnail.png",
-      "animation": "https://cdn.discordapp.com/assets/profile_effects/effects/2023-9-25/sayan/intro.png"
+      "animation": "https://cdn.discordapp.com/assets/profile_effects/effects/2023-9-25/sayan/intro.png",
+      "effects": [
+        {
+          "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2023-9-25/sayan/intro.png",
+          "loop": false,
+          "height": 880,
+          "width": 450,
+          "duration": 2400,
+          "start": 0,
+          "loopDelay": 0,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "zIndex": 100
+        },
+        {
+          "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2023-9-25/sayan/loop.png",
+          "loop": true,
+          "height": 880,
+          "width": 450,
+          "duration": 2480,
+          "start": 4960,
+          "loopDelay": 4960,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "zIndex": 101
+        }
+      ]
     },
     "Shuriken Strike": {
       "sku_id": "1139323101008642101",
-      "thumbnail": "https://cdn.discordapp.com/assets/profile_effects/effects/b17d139f2e9/shuriken/thumbnail.png"
+      "thumbnail": "https://cdn.discordapp.com/assets/profile_effects/effects/b17d139f2e9/shuriken/thumbnail.png",
+      "effects": [
+        {
+          "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2023-10-5/shuriken/intro3.png",
+          "loop": true,
+          "height": 880,
+          "width": 450,
+          "duration": 2880,
+          "start": 0,
+          "loopDelay": 0,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "zIndex": 100
+        },
+        {
+          "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2e46d5d2d9e/shuriken/loop3.png",
+          "loop": true,
+          "height": 880,
+          "width": 450,
+          "duration": 2000,
+          "start": 2880,
+          "loopDelay": 2000,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "zIndex": 101
+        }
+      ]
     },
     "Dreamy": {
       "sku_id": "1212582298893946880",
       "thumbnail": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-02-28/dreamy/thumbnail.png",
-      "animation": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-02-28/dreamy/intro.png"
+      "animation": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-02-28/dreamy/intro.png",
+      "effects": [
+        {
+          "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-02-28/dreamy/intro.png",
+          "loop": false,
+          "height": 880,
+          "width": 450,
+          "duration": 2880,
+          "start": 0,
+          "loopDelay": 0,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "zIndex": 100
+        },
+        {
+          "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-02-28/dreamy/idle.png",
+          "loop": true,
+          "height": 880,
+          "width": 450,
+          "duration": 2880,
+          "start": 3280,
+          "loopDelay": 4000,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "zIndex": 101
+        }
+      ]
     },
     "Ki Detonate": {
       "sku_id": "1212582372877541427",
       "thumbnail": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-02-28/ki-detonate/thumbnail.png",
-      "animation": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-02-28/ki-detonate/intro.png"
+      "animation": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-02-28/ki-detonate/intro.png",
+      "effects": [
+        {
+          "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-02-28/ki-detonate/intro.png",
+          "loop": false,
+          "height": 880,
+          "width": 450,
+          "duration": 2880,
+          "start": 0,
+          "loopDelay": 0,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "zIndex": 100
+        },
+        {
+          "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-02-28/ki-detonate/idle.png",
+          "loop": true,
+          "height": 880,
+          "width": 450,
+          "duration": 2880,
+          "start": 3280,
+          "loopDelay": 4000,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "zIndex": 101
+        }
+      ]
     },
     "Sushi Mania": {
       "sku_id": "1212582452640350238",
       "thumbnail": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-02-28/sushi-mania/thumbnail.png",
-      "animation": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-02-28/sushi-mania/intro.png"
+      "animation": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-02-28/sushi-mania/intro.png",
+      "effects": [
+        {
+          "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-02-28/sushi-mania/intro.png",
+          "loop": false,
+          "height": 880,
+          "width": 450,
+          "duration": 2880,
+          "start": 0,
+          "loopDelay": 0,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "zIndex": 100
+        },
+        {
+          "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-02-28/sushi-mania/idle.png",
+          "loop": true,
+          "height": 880,
+          "width": 450,
+          "duration": 2880,
+          "start": 3280,
+          "loopDelay": 4000,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "zIndex": 101
+        }
+      ]
     }
   },
   "Breakfast": {
     "Discord-Os": {
       "sku_id": "1139323095744790568",
       "thumbnail": "https://cdn.discordapp.com/assets/profile_effects/effects/2023-9-25/cereal/thumbnail.png",
-      "animation": "https://cdn.discordapp.com/assets/profile_effects/effects/2023-9-25/cereal/intro.png"
+      "animation": "https://cdn.discordapp.com/assets/profile_effects/effects/2023-9-25/cereal/intro.png",
+      "effects": [
+        {
+          "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2023-9-25/cereal/intro.png",
+          "loop": false,
+          "height": 880,
+          "width": 450,
+          "duration": 2880,
+          "start": 0,
+          "loopDelay": 0,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "zIndex": 100
+        },
+        {
+          "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2023-9-25/cereal/loop.png",
+          "loop": true,
+          "height": 880,
+          "width": 450,
+          "duration": 2880,
+          "start": 5760,
+          "loopDelay": 5760,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "zIndex": 101
+        }
+      ]
     },
     "Breakfast Plate": {
       "sku_id": "1139323096180994169",
       "thumbnail": "https://cdn.discordapp.com/assets/profile_effects/effects/2023-9-25/plate/thumbnail.png",
-      "animation": "https://cdn.discordapp.com/assets/profile_effects/effects/2023-9-25/plate/intro.png"
+      "animation": "https://cdn.discordapp.com/assets/profile_effects/effects/2023-9-25/plate/intro.png",
+      "effects": [
+        {
+          "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2023-9-25/plate/intro.png",
+          "loop": false,
+          "height": 880,
+          "width": 450,
+          "duration": 2880,
+          "start": 0,
+          "loopDelay": 0,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "zIndex": 100
+        },
+        {
+          "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2023-9-25/plate/loop.png",
+          "loop": true,
+          "height": 880,
+          "width": 450,
+          "duration": 2880,
+          "start": 5760,
+          "loopDelay": 5760,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "zIndex": 101
+        }
+      ]
     }
   },
   "Halloween": {
     "Ghoulish Graffiti": {
       "sku_id": "1158572178179108968",
       "thumbnail": "https://cdn.discordapp.com/assets/profile_effects/effects/2023-10-11/punk-girl/thumbnail.png",
-      "animation": "https://cdn.discordapp.com/assets/profile_effects/effects/2023-10-11/punk-girl/intro.png"
+      "animation": "https://cdn.discordapp.com/assets/profile_effects/effects/2023-10-11/punk-girl/intro.png",
+      "effects": [
+        {
+          "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2023-10-11/punk-girl/intro.png",
+          "loop": false,
+          "height": 880,
+          "width": 450,
+          "duration": 2573,
+          "start": 0,
+          "loopDelay": 0,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "zIndex": 100
+        },
+        {
+          "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2023-10-11/punk-girl/loop.png",
+          "loop": true,
+          "height": 880,
+          "width": 450,
+          "duration": 2000,
+          "start": 5146,
+          "loopDelay": 4000,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "zIndex": 101
+        }
+      ]
     },
     "Dark Omens": {
       "sku_id": "1158572275507937342",
       "thumbnail": "https://cdn.discordapp.com/assets/profile_effects/effects/b17d139f2e9/ghost-skull/thumbnail.png",
-      "animation": "https://cdn.discordapp.com/assets/profile_effects/effects/b17d139f2e9/ghost-skull/intro.png"
+      "animation": "https://cdn.discordapp.com/assets/profile_effects/effects/b17d139f2e9/ghost-skull/intro.png",
+      "effects": [
+        {
+          "src": "https://cdn.discordapp.com/assets/profile_effects/effects/b17d139f2e9/ghost-skull/intro.png",
+          "loop": false,
+          "height": 880,
+          "width": 450,
+          "duration": 2880,
+          "start": 0,
+          "loopDelay": 0,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "zIndex": 100
+        },
+        {
+          "src": "https://cdn.discordapp.com/assets/profile_effects/effects/b17d139f2e9/ghost-skull/loop.png",
+          "loop": true,
+          "height": 880,
+          "width": 450,
+          "duration": 2880,
+          "start": 5760,
+          "loopDelay": 5760,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "zIndex": 101
+        }
+      ]
     },
     "Zombie Slime": {
       "sku_id": "1158572263411556373",
       "thumbnail": "https://cdn.discordapp.com/assets/profile_effects/effects/b17d139f2e9/zombie-slime/thumbnail.png",
-      "animation": "https://cdn.discordapp.com/assets/profile_effects/effects/b17d139f2e9/zombie-slime/intro.png"
+      "animation": "https://cdn.discordapp.com/assets/profile_effects/effects/b17d139f2e9/zombie-slime/intro.png",
+      "effects": [
+        {
+          "src": "https://cdn.discordapp.com/assets/profile_effects/effects/b17d139f2e9/zombie-slime/intro.png",
+          "loop": false,
+          "height": 880,
+          "width": 450,
+          "duration": 2880,
+          "start": 0,
+          "loopDelay": 0,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "zIndex": 100
+        },
+        {
+          "src": "https://cdn.discordapp.com/assets/profile_effects/effects/b17d139f2e9/zombie-slime/loop.png",
+          "loop": true,
+          "height": 880,
+          "width": 450,
+          "duration": 2880,
+          "start": 5760,
+          "loopDelay": 5760,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "zIndex": 101
+        }
+      ]
     }
   },
   "Fall": {
     "Fall Foliage": {
       "sku_id": "1159280677246742548",
       "thumbnail": "https://cdn.discordapp.com/assets/profile_effects/effects/2023-9-25/leaves/thumbnail.png",
-      "animation": "https://cdn.discordapp.com/assets/profile_effects/effects/2023-10-11/leaves/intro-branch.png"
+      "animation": "https://cdn.discordapp.com/assets/profile_effects/effects/2023-10-11/leaves/intro-branch.png",
+      "effects": [
+        {
+          "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2023-10-11/leaves/intro-branch.png",
+          "loop": true,
+          "height": 880,
+          "width": 450,
+          "duration": 2880,
+          "start": 0,
+          "loopDelay": 0,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "zIndex": 100
+        },
+        {
+          "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2023-10-11/leaves/intro-leaves.png",
+          "loop": false,
+          "height": 880,
+          "width": 450,
+          "duration": 2988,
+          "start": 0,
+          "loopDelay": 0,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "zIndex": 101
+        },
+        {
+          "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2023-10-11/leaves/loop.png",
+          "loop": true,
+          "height": 880,
+          "width": 450,
+          "duration": 3984,
+          "start": 5760,
+          "loopDelay": 7968,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "zIndex": 102
+        }
+      ]
     },
     "Lillypad Life": {
       "sku_id": "1159280847262859364",
       "thumbnail": "https://cdn.discordapp.com/assets/profile_effects/effects/2023-9-25/rain/thumbnail.png",
-      "animation": "https://cdn.discordapp.com/assets/profile_effects/effects/2023-9-25/rain/intro.png"
+      "animation": "https://cdn.discordapp.com/assets/profile_effects/effects/2023-9-25/rain/intro.png",
+      "effects": [
+        {
+          "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2023-9-25/rain/intro.png",
+          "loop": false,
+          "height": 880,
+          "width": 450,
+          "duration": 2880,
+          "start": 0,
+          "loopDelay": 0,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "zIndex": 100
+        },
+        {
+          "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2023-9-25/rain/loop.png",
+          "loop": true,
+          "height": 880,
+          "width": 450,
+          "duration": 2880,
+          "start": 5760,
+          "loopDelay": 5760,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "zIndex": 101
+        }
+      ]
     }
   },
   "Winter Wonderland": {
     "Deck the halls": {
       "sku_id": "1146328960951668776",
       "thumbnail": "https://cdn.discordapp.com/assets/profile_effects/effects/2023-11-22/deck-the-halls/thumbnail.png",
-      "animation": "https://cdn.discordapp.com/assets/profile_effects/effects/2023-11-28/deck-the-halls/intro.png"
+      "animation": "https://cdn.discordapp.com/assets/profile_effects/effects/2023-11-28/deck-the-halls/intro.png",
+      "effects": [
+        {
+          "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2023-11-28/deck-the-halls/intro.png",
+          "loop": true,
+          "height": 880,
+          "width": 450,
+          "duration": 1750,
+          "start": 0,
+          "loopDelay": 0,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "zIndex": 100
+        },
+        {
+          "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2023-11-22/deck-the-halls/loop.png",
+          "loop": true,
+          "height": 880,
+          "width": 450,
+          "duration": 1250,
+          "start": 1750,
+          "loopDelay": 0,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "zIndex": 101
+        }
+      ]
     },
     "Snowy Shenanigans": {
       "sku_id": "1146328961417224193",
       "thumbnail": "https://cdn.discordapp.com/assets/profile_effects/effects/2023-11-28/snowy-shenanigans/thumbnail.png",
-      "animation": "https://cdn.discordapp.com/assets/profile_effects/effects/2023-11-28/snowy-shenanigans/intro.png"
+      "animation": "https://cdn.discordapp.com/assets/profile_effects/effects/2023-11-28/snowy-shenanigans/intro.png",
+      "effects": [
+        {
+          "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2023-11-28/snowy-shenanigans/intro.png",
+          "loop": true,
+          "height": 880,
+          "width": 450,
+          "duration": 4168,
+          "start": 0,
+          "loopDelay": 0,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "zIndex": 100
+        },
+        {
+          "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2023-11-22/snowy-shenanigans/loop.png",
+          "loop": true,
+          "height": 880,
+          "width": 450,
+          "duration": 8334,
+          "start": 4168,
+          "loopDelay": 8334,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "zIndex": 101
+        }
+      ]
     }
   },
   "Monsters": {
     "Goozilla": {
       "sku_id": "1179493515118514195",
       "thumbnail": "https://cdn.discordapp.com/assets/profile_effects/effects/2023-11-29/goozilla/thumbnail.png",
-      "animation": "https://cdn.discordapp.com/assets/profile_effects/effects/2023-11-29/goozilla/intro-claw.png"
+      "animation": "https://cdn.discordapp.com/assets/profile_effects/effects/2023-11-29/goozilla/intro-claw.png",
+      "effects": [
+        {
+          "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2023-11-29/goozilla/intro-claw.png",
+          "loop": true,
+          "height": 880,
+          "width": 450,
+          "duration": 4250,
+          "start": 0,
+          "loopDelay": 0,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "zIndex": 100
+        },
+        {
+          "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2023-11-29/goozilla/intro-slime.png",
+          "loop": false,
+          "height": 880,
+          "width": 450,
+          "duration": 4250,
+          "start": 0,
+          "loopDelay": 0,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "zIndex": 101
+        },
+        {
+          "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2023-11-29/goozilla/loop.png",
+          "loop": true,
+          "height": 880,
+          "width": 450,
+          "duration": 3000,
+          "start": 4250,
+          "loopDelay": 0,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "zIndex": 102
+        }
+      ]
     },
     "Heartzilla": {
       "sku_id": "1179493515126898811",
       "thumbnail": "https://cdn.discordapp.com/assets/profile_effects/effects/2023-11-29/heartzilla/thumbnail.png",
-      "animation": "https://cdn.discordapp.com/assets/profile_effects/effects/2023-11-30/heartzilla/intro.png"
+      "animation": "https://cdn.discordapp.com/assets/profile_effects/effects/2023-11-30/heartzilla/intro.png",
+      "effects": [
+        {
+          "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2023-11-30/heartzilla/intro.png",
+          "loop": true,
+          "height": 880,
+          "width": 450,
+          "duration": 3750,
+          "start": 0,
+          "loopDelay": 0,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "zIndex": 100
+        },
+        {
+          "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2023-11-29/heartzilla/loop.png",
+          "loop": true,
+          "height": 880,
+          "width": 450,
+          "duration": 4000,
+          "start": 3750,
+          "loopDelay": 0,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "zIndex": 101
+        }
+      ]
     },
     "Monster Pop": {
       "sku_id": "1179493515126898814",
       "thumbnail": "https://cdn.discordapp.com/assets/profile_effects/effects/2023-11-29/monster-pop/thumbnail.png",
-      "animation": "https://cdn.discordapp.com/assets/profile_effects/effects/2023-11-30/monster-pop/intro-monster.png"
+      "animation": "https://cdn.discordapp.com/assets/profile_effects/effects/2023-11-30/monster-pop/intro-monster.png",
+      "effects": [
+        {
+          "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2023-11-30/monster-pop/intro-monster.png",
+          "loop": true,
+          "height": 880,
+          "width": 450,
+          "duration": 3917,
+          "start": 0,
+          "loopDelay": 0,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "zIndex": 100
+        },
+        {
+          "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2023-11-30/monster-pop/intro-glass.png",
+          "loop": true,
+          "height": 880,
+          "width": 450,
+          "duration": 3917,
+          "start": 0,
+          "loopDelay": 0,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "zIndex": 101
+        },
+        {
+          "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2023-11-29/monster-pop/loop.png",
+          "loop": true,
+          "height": 880,
+          "width": 450,
+          "duration": 2083,
+          "start": 3917,
+          "loopDelay": 0,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "zIndex": 102
+        }
+      ]
     }
   },
   "Cyberpunk": {
     "Nightrunner": {
       "sku_id": "1197344693630009424",
       "thumbnail": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-1-16/cyberpunk-nightrunner/thumbnail.png",
-      "animation": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-1-19/cyberpunk-nightrunner/intro.png"
+      "animation": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-1-19/cyberpunk-nightrunner/intro.png",
+      "effects": [
+        {
+          "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-1-19/cyberpunk-nightrunner/intro.png",
+          "loop": false,
+          "height": 880,
+          "width": 450,
+          "duration": 2960,
+          "start": 0,
+          "loopDelay": 0,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "zIndex": 100
+        },
+        {
+          "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-1-18/cyberpunk-nightrunner/idle.png",
+          "loop": true,
+          "height": 880,
+          "width": 450,
+          "duration": 2960,
+          "start": 5920,
+          "loopDelay": 5920,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "zIndex": 101
+        }
+      ]
     },
     "Uplink Error": {
       "sku_id": "1197344764174008452",
       "thumbnail": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-1-16/cyberpunk-uplinkerror/thumbnail.png",
-      "animation": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-1-19/cyberpunk-uplinkerror/intro.png"
+      "animation": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-1-19/cyberpunk-uplinkerror/intro.png",
+      "effects": [
+        {
+          "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-1-19/cyberpunk-uplinkerror/intro.png",
+          "loop": false,
+          "height": 880,
+          "width": 450,
+          "duration": 2880,
+          "start": 0,
+          "loopDelay": 0,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "zIndex": 100
+        },
+        {
+          "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-1-18/cyberpunk-uplinkerror/idle.png",
+          "loop": true,
+          "height": 880,
+          "width": 450,
+          "duration": 2880,
+          "start": 5760,
+          "loopDelay": 5760,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "zIndex": 101
+        }
+      ]
     }
   },
   "Lunar New Year": {
     "Dragon Dance": {
       "sku_id": "1202061726212947968",
       "thumbnail": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-01-31/dragon-dance/thumbnail.png",
-      "animation": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-02-07/dragon-dance/intro_2e0f72c35c.png"
+      "animation": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-02-07/dragon-dance/intro_2e0f72c35c.png",
+      "effects": [
+        {
+          "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-02-07/dragon-dance/intro_2e0f72c35c.png",
+          "loop": false,
+          "height": 880,
+          "width": 450,
+          "duration": 3360,
+          "start": 0,
+          "loopDelay": 0,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "zIndex": 100
+        },
+        {
+          "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-02-07/dragon-dance/loop_20e743b578.png",
+          "loop": true,
+          "height": 880,
+          "width": 450,
+          "duration": 8560,
+          "start": 2880,
+          "loopDelay": 0,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "zIndex": 101
+        }
+      ]
     },
     "Fortune Flurry": {
       "sku_id": "1202059628112777256",
       "thumbnail": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-01-31/fortune-flurry/thumbnail.png",
-      "animation": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-02-01/fortune-flurry/intro.png"
+      "animation": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-02-01/fortune-flurry/intro.png",
+      "effects": [
+        {
+          "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-02-01/fortune-flurry/frame.png",
+          "loop": true,
+          "height": 880,
+          "width": 450,
+          "duration": 2880,
+          "start": 0,
+          "loopDelay": 0,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "zIndex": 100
+        },
+        {
+          "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-02-01/fortune-flurry/intro.png",
+          "loop": false,
+          "height": 880,
+          "width": 450,
+          "duration": 3280,
+          "start": 0,
+          "loopDelay": 0,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "zIndex": 101
+        },
+        {
+          "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-02-02/fortune-flurry/loop.png",
+          "loop": true,
+          "height": 880,
+          "width": 450,
+          "duration": 10000,
+          "start": 2880,
+          "loopDelay": 0,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "zIndex": 102
+        }
+      ]
     },
     "Midnight Celebration": {
       "sku_id": "1202061510529257522",
       "thumbnail": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-01-31/midnight-celebration/thumbnail.png",
-      "animation": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-02-01/midnight-celebration/intro.png"
+      "animation": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-02-01/midnight-celebration/intro.png",
+      "effects": [
+        {
+          "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-02-01/midnight-celebration/frame.png",
+          "loop": true,
+          "height": 880,
+          "width": 450,
+          "duration": 2880,
+          "start": 0,
+          "loopDelay": 0,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "zIndex": 100
+        },
+        {
+          "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-02-01/midnight-celebration/intro.png",
+          "loop": false,
+          "height": 880,
+          "width": 450,
+          "duration": 2880,
+          "start": 0,
+          "loopDelay": 0,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "zIndex": 101
+        },
+        {
+          "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-02-01/midnight-celebration/fireworks.png",
+          "loop": true,
+          "height": 880,
+          "width": 450,
+          "duration": 2880,
+          "start": 3200,
+          "loopDelay": 5760,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "zIndex": 102
+        }
+      ]
     }
   },
   "Elements": {
     "Rock Slide": {
       "sku_id": "1207049115339591681",
       "thumbnail": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-02-13/rock-slide/thumbnail.png",
-      "animation": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-02-13/rock-slide/intro.png"
+      "animation": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-02-13/rock-slide/intro.png",
+      "effects": [
+        {
+          "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-02-13/rock-slide/intro.png",
+          "loop": false,
+          "height": 880,
+          "width": 450,
+          "duration": 2880,
+          "start": 0,
+          "loopDelay": 0,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "zIndex": 100
+        },
+        {
+          "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-02-13/rock-slide/idle.png",
+          "loop": true,
+          "height": 880,
+          "width": 450,
+          "duration": 2880,
+          "start": 5760,
+          "loopDelay": 5760,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "zIndex": 101
+        }
+      ]
     },
     "Vortex": {
       "sku_id": "1207049364464345158",
       "thumbnail": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-02-13/vortex/thumbnail.png",
-      "animation": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-02-13/vortex/intro.png"
+      "animation": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-02-13/vortex/intro.png",
+      "effects": [
+        {
+          "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-02-13/vortex/intro.png",
+          "loop": false,
+          "height": 880,
+          "width": 450,
+          "duration": 2880,
+          "start": 0,
+          "loopDelay": 0,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "zIndex": 100
+        },
+        {
+          "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-02-13/vortex/idle.png",
+          "loop": true,
+          "height": 880,
+          "width": 450,
+          "duration": 2880,
+          "start": 5760,
+          "loopDelay": 5760,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "zIndex": 101
+        }
+      ]
     },
     "Mastery": {
       "sku_id": "1207049498065375343",
       "thumbnail": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-02-13/mastery/thumbnail.png",
-      "animation": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-02-13/mastery/intro.png"
+      "animation": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-02-13/mastery/intro.png",
+      "effects": [
+        {
+          "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-02-13/mastery/intro.png",
+          "loop": false,
+          "height": 880,
+          "width": 450,
+          "duration": 2880,
+          "start": 0,
+          "loopDelay": 0,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "zIndex": 100
+        },
+        {
+          "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-02-13/mastery/idle.png",
+          "loop": true,
+          "height": 880,
+          "width": 450,
+          "duration": 2880,
+          "start": 5760,
+          "loopDelay": 5760,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "zIndex": 101
+        }
+      ]
     }
   },
   "Springtoons": {
     "Petal Serenade": {
       "sku_id": "1217626509737459852",
       "thumbnail": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-03-11/petal-serenade/thumbnail.png",
-      "animation": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-03-11/petal-serenade/intro-pse01.png"
+      "animation": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-03-11/petal-serenade/intro-pse01.png",
+      "effects": [
+        {
+          "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-03-11/petal-serenade/intro-pse01.png",
+          "loop": false,
+          "height": 880,
+          "width": 450,
+          "duration": 3200,
+          "start": 0,
+          "loopDelay": 0,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "zIndex": 100
+        },
+        {
+          "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-03-11/petal-serenade/idle-frame.png",
+          "loop": true,
+          "height": 880,
+          "width": 450,
+          "duration": 2880,
+          "start": 2880,
+          "loopDelay": 0,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "zIndex": 101
+        },
+        {
+          "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-03-11/petal-serenade/idle-petals.png",
+          "loop": true,
+          "height": 880,
+          "width": 450,
+          "duration": 2880,
+          "start": 2880,
+          "loopDelay": 3500,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "zIndex": 102
+        }
+      ]
     },
     "Fellowship of the Spring": {
       "sku_id": "1217627051217911848",
       "thumbnail": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-03-11/fellowship-of-the-spring/thumbnail.png",
-      "animation": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-03-11/fellowship-of-the-spring/intro-fose01.png"
+      "animation": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-03-11/fellowship-of-the-spring/intro-fose01.png",
+      "effects": [
+        {
+          "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-03-11/fellowship-of-the-spring/intro-fose01.png",
+          "loop": false,
+          "height": 880,
+          "width": 450,
+          "duration": 3100,
+          "start": 0,
+          "loopDelay": 0,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "zIndex": 100
+        },
+        {
+          "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-03-11/fellowship-of-the-spring/idle-frame.png",
+          "loop": true,
+          "height": 880,
+          "width": 450,
+          "duration": 2880,
+          "start": 2880,
+          "loopDelay": 0,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "zIndex": 101
+        },
+        {
+          "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-03-11/fellowship-of-the-spring/idle-critters.png",
+          "loop": true,
+          "height": 880,
+          "width": 450,
+          "duration": 2880,
+          "start": 2880,
+          "loopDelay": 8000,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "zIndex": 102
+        }
+      ]
     },
     "Spring Bloom": {
       "sku_id": "1217627230818009171",
       "thumbnail": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-03-11/spring-bloom/thumbnail.png",
-      "animation": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-03-11/spring-bloom/intro-sbe01.png"
+      "animation": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-03-11/spring-bloom/intro-sbe01.png",
+      "effects": [
+        {
+          "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-03-11/spring-bloom/intro-sbe01.png",
+          "loop": false,
+          "height": 880,
+          "width": 450,
+          "duration": 7300,
+          "start": 0,
+          "loopDelay": 0,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "zIndex": 100
+        },
+        {
+          "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-03-11/spring-bloom/idle-flowers.png",
+          "loop": true,
+          "height": 880,
+          "width": 450,
+          "duration": 4800,
+          "start": 6800,
+          "loopDelay": 0,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "zIndex": 101
+        },
+        {
+          "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-03-11/spring-bloom/idle-rain.png",
+          "loop": true,
+          "height": 880,
+          "width": 450,
+          "duration": 4880,
+          "start": 6800,
+          "loopDelay": 8000,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "zIndex": 102
+        }
+      ]
     }
   },
   "VALORANT": {
     "Clove's Ruse": {
       "sku_id": "1220432647453409384",
       "thumbnail": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-03-21/cloves-ruse/thumbnail_a5917b67.png",
-      "animation": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-03-21/cloves-ruse/intro_b62d8ce4.png"
+      "animation": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-03-21/cloves-ruse/intro_b62d8ce4.png",
+      "effects": [
+        {
+          "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-03-21/cloves-ruse/intro_b62d8ce4.png",
+          "loop": false,
+          "height": 880,
+          "width": 450,
+          "duration": 5360,
+          "start": 0,
+          "loopDelay": 0,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "zIndex": 100
+        },
+        {
+          "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-03-21/cloves-ruse/idle_050419ac.png",
+          "loop": true,
+          "height": 880,
+          "width": 450,
+          "duration": 5840,
+          "start": 6560,
+          "loopDelay": 5840,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "zIndex": 101
+        }
+      ]
     },
     "ACE": {
       "sku_id": "1220432740638523543",
       "thumbnail": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-03-21/ace/thumbnail_7c4f8929.png",
-      "animation": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-03-21/ace/intro_fa545ec0.png"
+      "animation": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-03-21/ace/intro_fa545ec0.png",
+      "effects": [
+        {
+          "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-03-21/ace/intro_fa545ec0.png",
+          "loop": false,
+          "height": 880,
+          "width": 450,
+          "duration": 4480,
+          "start": 0,
+          "loopDelay": 0,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "zIndex": 100
+        },
+        {
+          "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-03-21/ace/idle_frame_83d027d7.png",
+          "loop": true,
+          "height": 880,
+          "width": 450,
+          "duration": 20000,
+          "start": 4080,
+          "loopDelay": 0,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "zIndex": 101
+        },
+        {
+          "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-03-21/ace/idle_a4ea3c0d.png",
+          "loop": true,
+          "height": 880,
+          "width": 450,
+          "duration": 5680,
+          "start": 8960,
+          "loopDelay": 0,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "zIndex": 102
+        }
+      ]
     },
     "The Immortal Clove": {
       "sku_id": "1220432697718083614",
       "thumbnail": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-03-21/the-immortal-clove/thumbnail_20409a9b.png",
-      "animation": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-03-21/the-immortal-clove/intro_310a69a3.png"
+      "animation": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-03-21/the-immortal-clove/intro_310a69a3.png",
+      "effects": [
+        {
+          "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-03-21/the-immortal-clove/intro_310a69a3.png",
+          "loop": false,
+          "height": 880,
+          "width": 400,
+          "duration": 4890,
+          "start": 0,
+          "loopDelay": 0,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "zIndex": 100
+        },
+        {
+          "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-03-21/the-immortal-clove/idle_8739289c.png",
+          "loop": true,
+          "height": 880,
+          "width": 400,
+          "duration": 7350,
+          "start": 9780,
+          "loopDelay": 3580,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "zIndex": 101
+        }
+      ]
     }
   },
   "Lofi Vibes": {
     "Study Spot": {
       "sku_id": "1228233390260486164",
       "thumbnail": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-04-04/study-spot/thumbnail.png",
-      "animation": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-04-12/study-spot/intro.png"
+      "animation": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-04-12/study-spot/intro.png",
+      "effects": [
+        {
+          "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-04-12/study-spot/intro.png",
+          "loop": false,
+          "height": 880,
+          "width": 450,
+          "duration": 3000,
+          "start": 0,
+          "loopDelay": 0,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "zIndex": 100
+        },
+        {
+          "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-04-04/study-spot/idle.png",
+          "loop": true,
+          "height": 880,
+          "width": 450,
+          "duration": 3000,
+          "start": 3000,
+          "loopDelay": 0,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "zIndex": 101
+        }
+      ]
     },
     "All Nighter": {
       "sku_id": "1228234634379132958",
       "thumbnail": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-04-04/all-nighter/thumbnail.png",
-      "animation": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-04-14/all-nighter/intro.png"
+      "animation": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-04-14/all-nighter/intro.png",
+      "effects": [
+        {
+          "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-04-14/all-nighter/intro.png",
+          "loop": false,
+          "height": 880,
+          "width": 450,
+          "duration": 3000,
+          "start": 0,
+          "loopDelay": 0,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "zIndex": 100
+        },
+        {
+          "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-04-04/all-nighter/idle-frame.png",
+          "loop": true,
+          "height": 880,
+          "width": 450,
+          "duration": 3000,
+          "start": 3000,
+          "loopDelay": 0,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "zIndex": 101
+        },
+        {
+          "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-04-04/all-nighter/idle-lights.png",
+          "loop": true,
+          "height": 880,
+          "width": 450,
+          "duration": 3000,
+          "start": 4000,
+          "loopDelay": 5000,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "zIndex": 102
+        }
+      ]
     },
     "Watercolors": {
       "sku_id": "1228237157554978817",
       "thumbnail": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-04-04/watercolors/thumbnail.png",
-      "animation": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-04-04/watercolors/intro.png"
+      "animation": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-04-04/watercolors/intro.png",
+      "effects": [
+        {
+          "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-04-04/watercolors/intro.png",
+          "loop": false,
+          "height": 880,
+          "width": 450,
+          "duration": 3000,
+          "start": 0,
+          "loopDelay": 0,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "zIndex": 100
+        },
+        {
+          "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-04-04/watercolors/idle.png",
+          "loop": true,
+          "height": 880,
+          "width": 450,
+          "duration": 3000,
+          "start": 6000,
+          "loopDelay": 3000,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "zIndex": 101
+        }
+      ]
     }
   },
   "Galaxy": {
     "Shooting Stars": {
       "sku_id": "1232073286582538261",
       "thumbnail": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-04-22/shooting-stars/thumbnail.png",
-      "animation": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-04-25/shooting-stars/intro_770bd27eae0.png"
+      "animation": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-04-25/shooting-stars/intro_770bd27eae0.png",
+      "effects": [
+        {
+          "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-04-25/shooting-stars/intro_770bd27eae0.png",
+          "loop": true,
+          "height": 880,
+          "width": 450,
+          "duration": 2880,
+          "start": 0,
+          "loopDelay": 0,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "zIndex": 100
+        },
+        {
+          "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-04-25/shooting-stars/loop_b1b5a9936b.png",
+          "loop": true,
+          "height": 880,
+          "width": 450,
+          "duration": 2880,
+          "start": 5760,
+          "loopDelay": 4320,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "zIndex": 101
+        }
+      ]
     },
     "Supernova": {
       "sku_id": "1232073448415821854",
       "thumbnail": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-04-22/supernova/thumbnail.png",
-      "animation": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-04-25/supernova/intro_9e90bcf683.png"
+      "animation": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-04-25/supernova/intro_9e90bcf683.png",
+      "effects": [
+        {
+          "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-04-25/supernova/intro_9e90bcf683.png",
+          "loop": true,
+          "height": 880,
+          "width": 450,
+          "duration": 2960,
+          "start": 0,
+          "loopDelay": 0,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "zIndex": 100
+        },
+        {
+          "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-04-25/supernova/loop_5835f1730b.png",
+          "loop": true,
+          "height": 880,
+          "width": 450,
+          "duration": 2880,
+          "start": 5920,
+          "loopDelay": 4320,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "zIndex": 101
+        }
+      ]
     },
     "Twilight": {
       "sku_id": "1232073608168472638",
       "thumbnail": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-04-22/twilight/thumbnail.png",
-      "animation": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-04-25/twilight/intro_56dbd2384f.png"
+      "animation": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-04-25/twilight/intro_56dbd2384f.png",
+      "effects": [
+        {
+          "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-04-25/twilight/intro_56dbd2384f.png",
+          "loop": true,
+          "height": 880,
+          "width": 450,
+          "duration": 2880,
+          "start": 0,
+          "loopDelay": 0,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "zIndex": 100
+        },
+        {
+          "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-04-25/twilight/loop_ff3e249d19.png",
+          "loop": true,
+          "height": 880,
+          "width": 450,
+          "duration": 2880,
+          "start": 5760,
+          "loopDelay": 4320,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "zIndex": 101
+        }
+      ]
     }
   },
   "Feelin' Retro": {
     "Feelin' Mischievous": {
       "sku_id": "1237650411410685972",
       "thumbnail": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-05-09/feelin-mischievous/thumbnail.png",
-      "animation": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-05-09/feelin-mischievous/intro_bg.png"
+      "animation": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-05-09/feelin-mischievous/intro_bg.png",
+      "effects": [
+        {
+          "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-05-09/feelin-mischievous/intro_bg.png",
+          "loop": false,
+          "height": 880,
+          "width": 450,
+          "duration": 5200,
+          "start": 0,
+          "loopDelay": 0,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "zIndex": 100
+        },
+        {
+          "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-05-09/feelin-mischievous/intro.png",
+          "loop": false,
+          "height": 880,
+          "width": 450,
+          "duration": 5200,
+          "start": 0,
+          "loopDelay": 0,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "zIndex": 101
+        },
+        {
+          "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-05-09/feelin-mischievous/idle_bg.png",
+          "loop": true,
+          "height": 880,
+          "width": 450,
+          "duration": 2160,
+          "start": 4800,
+          "loopDelay": 0,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "zIndex": 102
+        },
+        {
+          "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-05-09/feelin-mischievous/idle.png",
+          "loop": true,
+          "height": 880,
+          "width": 450,
+          "duration": 2160,
+          "start": 4800,
+          "loopDelay": 0,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "zIndex": 103
+        }
+      ]
     },
     "Feelin' 90s": {
       "sku_id": "1237650542772228096",
       "thumbnail": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-05-09/feelin-70s/thumbnail.png",
-      "animation": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-05-09/feelin-70s/intro.png"
+      "animation": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-05-09/feelin-70s/intro.png",
+      "effects": [
+        {
+          "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-05-09/feelin-70s/intro.png",
+          "loop": false,
+          "height": 880,
+          "width": 450,
+          "duration": 1360,
+          "start": 0,
+          "loopDelay": 0,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "zIndex": 100
+        },
+        {
+          "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-05-09/feelin-70s/idle.png",
+          "loop": true,
+          "height": 880,
+          "width": 450,
+          "duration": 8080,
+          "start": 1360,
+          "loopDelay": 0,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "zIndex": 101
+        }
+      ]
     },
     "Feelin' Pizzazz": {
       "sku_id": "1237650618777075712",
       "thumbnail": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-05-09/feelin-pizzazz/thumbnail.png",
-      "animation": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-05-10/feelin-pizzazz/intro.png"
+      "animation": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-05-10/feelin-pizzazz/intro.png",
+      "effects": [
+        {
+          "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-05-10/feelin-pizzazz/intro.png",
+          "loop": false,
+          "height": 880,
+          "width": 450,
+          "duration": 1280,
+          "start": 0,
+          "loopDelay": 0,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "zIndex": 100
+        },
+        {
+          "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-05-09/feelin-pizzazz/idle.png",
+          "loop": true,
+          "height": 880,
+          "width": 450,
+          "duration": 7840,
+          "start": 1260,
+          "loopDelay": 0,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "zIndex": 101
+        }
+      ]
     }
   },
   "Pirates": {
     "Jolly Roger": {
       "sku_id": "1237654783209508904",
       "thumbnail": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-05-09/jolly-roger/thumbnail.png",
-      "animation": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-05-10/jolly-roger/intro.png"
+      "animation": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-05-10/jolly-roger/intro.png",
+      "effects": [
+        {
+          "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-05-10/jolly-roger/intro.png",
+          "loop": false,
+          "height": 880,
+          "width": 450,
+          "duration": 3280,
+          "start": 0,
+          "loopDelay": 0,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "zIndex": 100
+        },
+        {
+          "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-05-09/jolly-roger/idle.png",
+          "loop": true,
+          "height": 880,
+          "width": 450,
+          "duration": 2880,
+          "start": 6000,
+          "loopDelay": 4000,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "zIndex": 101
+        }
+      ]
     },
     "Forgotten Treasure": {
       "sku_id": "1237654867330469949",
       "thumbnail": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-05-09/forgotten-treasure/thumbnail.png",
-      "animation": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-05-10/forgotten-treasure/intro.png"
+      "animation": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-05-10/forgotten-treasure/intro.png",
+      "effects": [
+        {
+          "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-05-10/forgotten-treasure/intro.png",
+          "loop": false,
+          "height": 880,
+          "width": 450,
+          "duration": 3840,
+          "start": 0,
+          "loopDelay": 0,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "zIndex": 100
+        },
+        {
+          "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-05-09/forgotten-treasure/idle.png",
+          "loop": true,
+          "height": 880,
+          "width": 450,
+          "duration": 2880,
+          "start": 6000,
+          "loopDelay": 4000,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "zIndex": 101
+        }
+      ]
     },
     "Haunted Man O' War": {
       "sku_id": "1237654942202990602",
       "thumbnail": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-05-09/haunted-man-o-war/thumbnail.png",
-      "animation": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-05-13/haunted-man-o-war/intro.png"
+      "animation": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-05-13/haunted-man-o-war/intro.png",
+      "effects": [
+        {
+          "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-05-13/haunted-man-o-war/intro.png",
+          "loop": false,
+          "height": 880,
+          "width": 450,
+          "duration": 3280,
+          "start": 0,
+          "loopDelay": 0,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "zIndex": 100
+        },
+        {
+          "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-05-13/haunted-man-o-war/idle.png",
+          "loop": true,
+          "height": 880,
+          "width": 450,
+          "duration": 3280,
+          "start": 6000,
+          "loopDelay": 4000,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "zIndex": 101
+        }
+      ]
     }
   },
   "Uncategorized": {
     "Space Evader": {
       "sku_id": "1245088094437507163",
       "thumbnail": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-05-29/space-evader/thumbnail.png",
-      "animation": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-05-29/space-evader/intro_bg.png"
+      "animation": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-05-29/space-evader/intro_bg.png",
+      "effects": [
+        {
+          "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-05-29/space-evader/intro_bg.png",
+          "loop": false,
+          "height": 880,
+          "width": 450,
+          "duration": 4160,
+          "start": 0,
+          "loopDelay": 0,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "zIndex": 100
+        },
+        {
+          "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-05-29/space-evader/intro_spaceship.png",
+          "loop": false,
+          "height": 880,
+          "width": 450,
+          "duration": 3840,
+          "start": 0,
+          "loopDelay": 0,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "zIndex": 101
+        },
+        {
+          "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-05-29/space-evader/idle.png",
+          "loop": true,
+          "height": 880,
+          "width": 450,
+          "duration": 4800,
+          "start": 7000,
+          "loopDelay": 3500,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "zIndex": 102
+        },
+        {
+          "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-05-29/space-evader/hud.png",
+          "loop": true,
+          "height": 880,
+          "width": 450,
+          "duration": 2400,
+          "start": 0,
+          "loopDelay": 0,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "zIndex": 103
+        }
+      ]
     },
     "Turbo Drive": {
       "sku_id": "1245088205330710539",
       "thumbnail": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-05-29/turbo-drive/thumbnail.png",
-      "animation": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-05-29/turbo-drive/intro.png"
+      "animation": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-05-29/turbo-drive/intro.png",
+      "effects": [
+        {
+          "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-05-29/turbo-drive/intro.png",
+          "loop": false,
+          "height": 880,
+          "width": 450,
+          "duration": 2880,
+          "start": 0,
+          "loopDelay": 0,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "zIndex": 100
+        },
+        {
+          "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-05-29/turbo-drive/idle_finish.png",
+          "loop": true,
+          "height": 880,
+          "width": 450,
+          "duration": 2880,
+          "start": 2700,
+          "loopDelay": 0,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "zIndex": 101
+        },
+        {
+          "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-05-29/turbo-drive/idle_confetti.png",
+          "loop": true,
+          "height": 880,
+          "width": 450,
+          "duration": 2880,
+          "start": 2700,
+          "loopDelay": 3500,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "zIndex": 102
+        }
+      ]
     },
     "Twinkle Trails": {
       "sku_id": "1245088254647205991",
       "thumbnail": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-05-29/twinkle-trails/thumbnail.png",
-      "animation": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-05-29/twinkle-trails/intro.png"
+      "animation": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-05-29/twinkle-trails/intro.png",
+      "effects": [
+        {
+          "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-05-29/twinkle-trails/intro.png",
+          "loop": false,
+          "height": 880,
+          "width": 450,
+          "duration": 9760,
+          "start": 0,
+          "loopDelay": 0,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "zIndex": 100
+        },
+        {
+          "src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-05-29/twinkle-trails/idle.png",
+          "loop": true,
+          "height": 880,
+          "width": 450,
+          "duration": 6380,
+          "start": 9500,
+          "loopDelay": 0,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "zIndex": 101
+        }
+      ]
     }
   }
 }

@@ -7,6 +7,7 @@ import NavBar from "../NavBar.jsx";
 import "./App.css";
 import { collectibles } from "./collectibles";
 import previews from "./previews.json";
+import ProfileEffectPreview from "./ProfileEffectPreview.jsx";
 
 function usePrice(price) {
   let pricestr = new String(price);
@@ -33,19 +34,26 @@ function CollectiblesPage() {
     setPreviewsFlattened(Object.assign({}, ...Object.values(previews)));
   }, [])
 
-  function getProfileEffectPreview(product) {
+  function getProfileEffect(product) {
     let preview = previewsFlattened[product.name];
+
     if (!preview) {
       // It could be the case where a product has been renamed so we need to check the sku_id
       preview = Object.values(previewsFlattened).filter(preview => preview.sku_id === product.sku_id)[0];
       if (!preview) {
-        return "";
+        return undefined;
       }
     }
-    if (preview.animation) {
-      return preview.animation;
+    return preview;
+  }
+
+  function getProfileEffectPreviewURL(product) {
+    const profileEffect = getProfileEffect(product);
+    if (!profileEffect) return "";
+    if (profileEffect.animation) {
+      return profileEffect.animation;
     } else {
-      return preview.thumbnail;
+      return profileEffect.thumbnail;
     }
   }
 
@@ -181,18 +189,14 @@ function CollectiblesPage() {
                 </tr>
               </thead>
               <tbody>
-                {category.products
+                {Object.keys(previewsFlattened).length > 0 && category.products
                   .filter((product) => product.items[0].type === 1)
                   .map((product) => (
                     <tr key={product.sku_id}>
                       <td>{product.name}</td>
                       <td>{product.summary}</td>
-                      <td>
-                        <img
-                          src={getProfileEffectPreview(product) ?? ""}
-                          style={{ width: "fit-content", height: "500px" }}
-                          onMouseOver={(event) => event.target.src = `${getProfileEffectPreview(product)}?t=${Date.now()}` ?? ""}
-                        ></img>
+                      <td> 
+                        <ProfileEffectPreview product={getProfileEffect(product)}></ProfileEffectPreview>
                       </td>
                       <td>{product.items[0].sku_id}</td>
                       <td>
