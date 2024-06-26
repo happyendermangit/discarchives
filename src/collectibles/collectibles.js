@@ -1,4 +1,821 @@
 const collectibles = [
+       {
+        "sku_id": "1252404112650407998",
+        "name": "Palworld",
+        "summary": "New island, new Pals, new adventures!",
+        "store_listing_id": "1252404109688967268",
+        "banner": "1252404118509719682",
+        "unpublished_at": "2024-07-27T03:59:00+00:00",
+        "styles": {
+            "background_colors": [
+                197156,
+                524587
+            ],
+            "button_colors": [
+                5793266,
+                5793266
+            ],
+            "confetti_colors": [
+                43772,
+                15774258,
+                16414587,
+                3000177,
+                9739511
+            ]
+        },
+        "logo": "1252404115686948925",
+        "mobile_bg": "1252404121252925514",
+        "pdp_bg": "1252404123844870224",
+        "mobile_banner": "1252404126801727579",
+        "products": [
+            {
+                "sku_id": "1252404745977462836",
+                "name": "Chillet",
+                "summary": "Who doesn't love to cuddle?",
+                "store_listing_id": "1252404135098060921",
+                "banner": "1252404118509719682",
+                "unpublished_at": null,
+                "styles": {
+                    "background_colors": [
+                        197156,
+                        524587
+                    ],
+                    "button_colors": [
+                        5793266,
+                        5793266
+                    ],
+                    "confetti_colors": [
+                        43772,
+                        15774258,
+                        16414587,
+                        3000177,
+                        9739511
+                    ]
+                },
+                "prices": {
+                    "0": {
+                        "countryPrices": {
+                            "country_code": "MA",
+                            "prices": [
+                                {
+                                    "amount": 999,
+                                    "currency": "usd",
+                                    "exponent": 2
+                                }
+                            ]
+                        }
+                    },
+                    "4": {
+                        "countryPrices": {
+                            "country_code": "MA",
+                            "prices": [
+                                {
+                                    "amount": 799,
+                                    "currency": "usd",
+                                    "exponent": 2
+                                }
+                            ]
+                        }
+                    },
+                    "5": {
+                        "countryPrices": {
+                            "country_code": "MA",
+                            "prices": [
+                                {
+                                    "amount": 999,
+                                    "currency": "usd",
+                                    "exponent": 2
+                                }
+                            ]
+                        }
+                    },
+                    "7": {
+                        "countryPrices": {
+                            "country_code": "MA",
+                            "prices": [
+                                {
+                                    "amount": 799,
+                                    "currency": "usd",
+                                    "exponent": 2
+                                }
+                            ]
+                        }
+                    }
+                },
+                "items": [
+                    {
+                        "type": 0,
+                        "id": "1252404748397707324",
+                        "sku_id": "1252404745977462836",
+                        "asset": "a_48b8411feb1e80a69048fc65b3275b75",
+                        "label": "Chillet embraces you with a frosty hug that nevertheless warms the heart."
+                    }
+                ],
+                "type": 0,
+                "premium_type": 0,
+                "category_sku_id": "1252404112650407998",
+                "google_sku_ids": {}
+            },
+            {
+                "sku_id": "1252404753321689119",
+                "name": "Pal Sphere",
+                "summary": "Fingers crossed!",
+                "store_listing_id": "1252404750935134208",
+                "banner": "1252404118509719682",
+                "unpublished_at": null,
+                "styles": {
+                    "background_colors": [
+                        197156,
+                        524587
+                    ],
+                    "button_colors": [
+                        5793266,
+                        5793266
+                    ],
+                    "confetti_colors": [
+                        43772,
+                        15774258,
+                        16414587,
+                        3000177,
+                        9739511
+                    ]
+                },
+                "prices": {
+                    "0": {
+                        "countryPrices": {
+                            "country_code": "MA",
+                            "prices": [
+                                {
+                                    "amount": 999,
+                                    "currency": "usd",
+                                    "exponent": 2
+                                }
+                            ]
+                        }
+                    },
+                    "4": {
+                        "countryPrices": {
+                            "country_code": "MA",
+                            "prices": [
+                                {
+                                    "amount": 799,
+                                    "currency": "usd",
+                                    "exponent": 2
+                                }
+                            ]
+                        }
+                    },
+                    "5": {
+                        "countryPrices": {
+                            "country_code": "MA",
+                            "prices": [
+                                {
+                                    "amount": 999,
+                                    "currency": "usd",
+                                    "exponent": 2
+                                }
+                            ]
+                        }
+                    },
+                    "7": {
+                        "countryPrices": {
+                            "country_code": "MA",
+                            "prices": [
+                                {
+                                    "amount": 799,
+                                    "currency": "usd",
+                                    "exponent": 2
+                                }
+                            ]
+                        }
+                    }
+                },
+                "items": [
+                    {
+                        "type": 0,
+                        "id": "1252404755473629275",
+                        "sku_id": "1252404753321689119",
+                        "asset": "a_59ad6c57089d2291611d9f59904f38e9",
+                        "label": "With a playful snap, the Pal Sphere opens up and captures the avatar."
+                    }
+                ],
+                "type": 0,
+                "premium_type": 0,
+                "category_sku_id": "1252404112650407998",
+                "google_sku_ids": {}
+            },
+            {
+                "sku_id": "1252404760448077864",
+                "name": "Cattiva",
+                "summary": "Cute... from a distance.",
+                "store_listing_id": "1252404757994147940",
+                "banner": "1252404118509719682",
+                "unpublished_at": null,
+                "styles": {
+                    "background_colors": [
+                        197156,
+                        524587
+                    ],
+                    "button_colors": [
+                        5793266,
+                        5793266
+                    ],
+                    "confetti_colors": [
+                        43772,
+                        15774258,
+                        16414587,
+                        3000177,
+                        9739511
+                    ]
+                },
+                "prices": {
+                    "0": {
+                        "countryPrices": {
+                            "country_code": "MA",
+                            "prices": [
+                                {
+                                    "amount": 999,
+                                    "currency": "usd",
+                                    "exponent": 2
+                                }
+                            ]
+                        }
+                    },
+                    "4": {
+                        "countryPrices": {
+                            "country_code": "MA",
+                            "prices": [
+                                {
+                                    "amount": 799,
+                                    "currency": "usd",
+                                    "exponent": 2
+                                }
+                            ]
+                        }
+                    },
+                    "5": {
+                        "countryPrices": {
+                            "country_code": "MA",
+                            "prices": [
+                                {
+                                    "amount": 999,
+                                    "currency": "usd",
+                                    "exponent": 2
+                                }
+                            ]
+                        }
+                    },
+                    "7": {
+                        "countryPrices": {
+                            "country_code": "MA",
+                            "prices": [
+                                {
+                                    "amount": 799,
+                                    "currency": "usd",
+                                    "exponent": 2
+                                }
+                            ]
+                        }
+                    }
+                },
+                "items": [
+                    {
+                        "type": 0,
+                        "id": "1252404762767523881",
+                        "sku_id": "1252404760448077864",
+                        "asset": "a_d260c70fa8f38c499fa452c3cbdc5a0c",
+                        "label": "An avatar wears Cattiva's adorably fierce facial features, ready to scratch at viewers."
+                    }
+                ],
+                "type": 0,
+                "premium_type": 0,
+                "category_sku_id": "1252404112650407998",
+                "google_sku_ids": {}
+            },
+            {
+                "sku_id": "1252404767737778217",
+                "name": "Lamball",
+                "summary": "Cozy, fluffy, and clumsy!",
+                "store_listing_id": "1252404765267071016",
+                "banner": "1252404118509719682",
+                "unpublished_at": null,
+                "styles": {
+                    "background_colors": [
+                        197156,
+                        524587
+                    ],
+                    "button_colors": [
+                        5793266,
+                        5793266
+                    ],
+                    "confetti_colors": [
+                        43772,
+                        15774258,
+                        16414587,
+                        3000177,
+                        9739511
+                    ]
+                },
+                "prices": {
+                    "0": {
+                        "countryPrices": {
+                            "country_code": "MA",
+                            "prices": [
+                                {
+                                    "amount": 999,
+                                    "currency": "usd",
+                                    "exponent": 2
+                                }
+                            ]
+                        }
+                    },
+                    "4": {
+                        "countryPrices": {
+                            "country_code": "MA",
+                            "prices": [
+                                {
+                                    "amount": 799,
+                                    "currency": "usd",
+                                    "exponent": 2
+                                }
+                            ]
+                        }
+                    },
+                    "5": {
+                        "countryPrices": {
+                            "country_code": "MA",
+                            "prices": [
+                                {
+                                    "amount": 999,
+                                    "currency": "usd",
+                                    "exponent": 2
+                                }
+                            ]
+                        }
+                    },
+                    "7": {
+                        "countryPrices": {
+                            "country_code": "MA",
+                            "prices": [
+                                {
+                                    "amount": 799,
+                                    "currency": "usd",
+                                    "exponent": 2
+                                }
+                            ]
+                        }
+                    }
+                },
+                "items": [
+                    {
+                        "type": 0,
+                        "id": "1252405001477816440",
+                        "sku_id": "1252404767737778217",
+                        "asset": "a_949a575b693c81ced8f56a7579d0969f",
+                        "label": "As a fluffy ball of fun, Lamball whimsically rolls on and on before tumbling into dizziness."
+                    }
+                ],
+                "type": 0,
+                "premium_type": 0,
+                "category_sku_id": "1252404112650407998",
+                "google_sku_ids": {}
+            },
+            {
+                "sku_id": "1252405004925669396",
+                "name": "Depresso",
+                "summary": "As enthusiastic as ever.",
+                "store_listing_id": "1252405003075719208",
+                "banner": "1252404118509719682",
+                "unpublished_at": null,
+                "styles": {
+                    "background_colors": [
+                        197156,
+                        524587
+                    ],
+                    "button_colors": [
+                        5793266,
+                        5793266
+                    ],
+                    "confetti_colors": [
+                        43772,
+                        15774258,
+                        16414587,
+                        3000177,
+                        9739511
+                    ]
+                },
+                "prices": {
+                    "0": {
+                        "countryPrices": {
+                            "country_code": "MA",
+                            "prices": [
+                                {
+                                    "amount": 999,
+                                    "currency": "usd",
+                                    "exponent": 2
+                                }
+                            ]
+                        }
+                    },
+                    "4": {
+                        "countryPrices": {
+                            "country_code": "MA",
+                            "prices": [
+                                {
+                                    "amount": 799,
+                                    "currency": "usd",
+                                    "exponent": 2
+                                }
+                            ]
+                        }
+                    },
+                    "5": {
+                        "countryPrices": {
+                            "country_code": "MA",
+                            "prices": [
+                                {
+                                    "amount": 999,
+                                    "currency": "usd",
+                                    "exponent": 2
+                                }
+                            ]
+                        }
+                    },
+                    "7": {
+                        "countryPrices": {
+                            "country_code": "MA",
+                            "prices": [
+                                {
+                                    "amount": 799,
+                                    "currency": "usd",
+                                    "exponent": 2
+                                }
+                            ]
+                        }
+                    }
+                },
+                "items": [
+                    {
+                        "type": 0,
+                        "id": "1252405006838136862",
+                        "sku_id": "1252405004925669396",
+                        "asset": "a_b7e2813fb97fe05b0f9f29a1bb7fde41",
+                        "label": "Depresso, with a tiny pickaxe in hand, diligently mines for resources, showing what it truly means to work hard with enthusiasm."
+                    }
+                ],
+                "type": 0,
+                "premium_type": 0,
+                "category_sku_id": "1252404112650407998",
+                "google_sku_ids": {}
+            },
+            {
+                "sku_id": "1252405010608951358",
+                "name": "Selyne",
+                "summary": "A mysterious moonlight encounter.",
+                "store_listing_id": "1252405008553480352",
+                "banner": "1252404118509719682",
+                "unpublished_at": null,
+                "styles": {
+                    "background_colors": [
+                        197156,
+                        524587
+                    ],
+                    "button_colors": [
+                        5793266,
+                        5793266
+                    ],
+                    "confetti_colors": [
+                        43772,
+                        15774258,
+                        16414587,
+                        3000177,
+                        9739511
+                    ]
+                },
+                "prices": {
+                    "0": {
+                        "countryPrices": {
+                            "country_code": "MA",
+                            "prices": [
+                                {
+                                    "amount": 999,
+                                    "currency": "usd",
+                                    "exponent": 2
+                                }
+                            ]
+                        }
+                    },
+                    "4": {
+                        "countryPrices": {
+                            "country_code": "MA",
+                            "prices": [
+                                {
+                                    "amount": 799,
+                                    "currency": "usd",
+                                    "exponent": 2
+                                }
+                            ]
+                        }
+                    },
+                    "5": {
+                        "countryPrices": {
+                            "country_code": "MA",
+                            "prices": [
+                                {
+                                    "amount": 999,
+                                    "currency": "usd",
+                                    "exponent": 2
+                                }
+                            ]
+                        }
+                    },
+                    "7": {
+                        "countryPrices": {
+                            "country_code": "MA",
+                            "prices": [
+                                {
+                                    "amount": 799,
+                                    "currency": "usd",
+                                    "exponent": 2
+                                }
+                            ]
+                        }
+                    }
+                },
+                "items": [
+                    {
+                        "type": 0,
+                        "id": "1252405012915683388",
+                        "sku_id": "1252405010608951358",
+                        "asset": "a_0830085f29712a6f3a23a123302050b4",
+                        "label": "A purple crescent moon adorns the avatar, when suddenly the glaring red eyes of a new, mysterious Pal stare into the depths of your soul. Who could it be...?"
+                    }
+                ],
+                "type": 0,
+                "premium_type": 0,
+                "category_sku_id": "1252404112650407998",
+                "google_sku_ids": {}
+            },
+            {
+                "sku_id": "1252405017688936508",
+                "name": "Saya",
+                "summary": "A mysterious beauty blossoms under the moonlight.",
+                "store_listing_id": "1252405015444721704",
+                "banner": "1252404118509719682",
+                "unpublished_at": null,
+                "styles": {
+                    "background_colors": [
+                        197156,
+                        524587
+                    ],
+                    "button_colors": [
+                        5793266,
+                        5793266
+                    ],
+                    "confetti_colors": [
+                        43772,
+                        15774258,
+                        16414587,
+                        3000177,
+                        9739511
+                    ]
+                },
+                "prices": {
+                    "0": {
+                        "countryPrices": {
+                            "country_code": "MA",
+                            "prices": [
+                                {
+                                    "amount": 999,
+                                    "currency": "usd",
+                                    "exponent": 2
+                                }
+                            ]
+                        }
+                    },
+                    "4": {
+                        "countryPrices": {
+                            "country_code": "MA",
+                            "prices": [
+                                {
+                                    "amount": 799,
+                                    "currency": "usd",
+                                    "exponent": 2
+                                }
+                            ]
+                        }
+                    },
+                    "5": {
+                        "countryPrices": {
+                            "country_code": "MA",
+                            "prices": [
+                                {
+                                    "amount": 999,
+                                    "currency": "usd",
+                                    "exponent": 2
+                                }
+                            ]
+                        }
+                    },
+                    "7": {
+                        "countryPrices": {
+                            "country_code": "MA",
+                            "prices": [
+                                {
+                                    "amount": 799,
+                                    "currency": "usd",
+                                    "exponent": 2
+                                }
+                            ]
+                        }
+                    }
+                },
+                "items": [
+                    {
+                        "type": 1,
+                        "id": "1252405019991474287",
+                        "sku_id": "1252405017688936508"
+                    }
+                ],
+                "type": 1,
+                "premium_type": 0,
+                "category_sku_id": "1252404112650407998",
+                "google_sku_ids": {}
+            },
+            {
+                "sku_id": "1252405239693447208",
+                "name": "Wake Up!",
+                "summary": "You wash ashore on a strange island...",
+                "store_listing_id": "1252405238032240650",
+                "banner": "1252404118509719682",
+                "unpublished_at": null,
+                "styles": {
+                    "background_colors": [
+                        197156,
+                        524587
+                    ],
+                    "button_colors": [
+                        5793266,
+                        5793266
+                    ],
+                    "confetti_colors": [
+                        43772,
+                        15774258,
+                        16414587,
+                        3000177,
+                        9739511
+                    ]
+                },
+                "prices": {
+                    "0": {
+                        "countryPrices": {
+                            "country_code": "MA",
+                            "prices": [
+                                {
+                                    "amount": 999,
+                                    "currency": "usd",
+                                    "exponent": 2
+                                }
+                            ]
+                        }
+                    },
+                    "4": {
+                        "countryPrices": {
+                            "country_code": "MA",
+                            "prices": [
+                                {
+                                    "amount": 799,
+                                    "currency": "usd",
+                                    "exponent": 2
+                                }
+                            ]
+                        }
+                    },
+                    "5": {
+                        "countryPrices": {
+                            "country_code": "MA",
+                            "prices": [
+                                {
+                                    "amount": 999,
+                                    "currency": "usd",
+                                    "exponent": 2
+                                }
+                            ]
+                        }
+                    },
+                    "7": {
+                        "countryPrices": {
+                            "country_code": "MA",
+                            "prices": [
+                                {
+                                    "amount": 799,
+                                    "currency": "usd",
+                                    "exponent": 2
+                                }
+                            ]
+                        }
+                    }
+                },
+                "items": [
+                    {
+                        "type": 1,
+                        "id": "1252405241660440629",
+                        "sku_id": "1252405239693447208"
+                    }
+                ],
+                "type": 1,
+                "premium_type": 0,
+                "category_sku_id": "1252404112650407998",
+                "google_sku_ids": {}
+            },
+            {
+                "sku_id": "1252405251949203497",
+                "name": "Tocotoco",
+                "summary": "Huggable... once.",
+                "store_listing_id": "1252405243455475823",
+                "banner": "1252404118509719682",
+                "unpublished_at": null,
+                "styles": {
+                    "background_colors": [
+                        197156,
+                        524587
+                    ],
+                    "button_colors": [
+                        5793266,
+                        5793266
+                    ],
+                    "confetti_colors": [
+                        43772,
+                        15774258,
+                        16414587,
+                        3000177,
+                        9739511
+                    ]
+                },
+                "prices": {
+                    "0": {
+                        "countryPrices": {
+                            "country_code": "MA",
+                            "prices": [
+                                {
+                                    "amount": 999,
+                                    "currency": "usd",
+                                    "exponent": 2
+                                }
+                            ]
+                        }
+                    },
+                    "4": {
+                        "countryPrices": {
+                            "country_code": "MA",
+                            "prices": [
+                                {
+                                    "amount": 799,
+                                    "currency": "usd",
+                                    "exponent": 2
+                                }
+                            ]
+                        }
+                    },
+                    "5": {
+                        "countryPrices": {
+                            "country_code": "MA",
+                            "prices": [
+                                {
+                                    "amount": 999,
+                                    "currency": "usd",
+                                    "exponent": 2
+                                }
+                            ]
+                        }
+                    },
+                    "7": {
+                        "countryPrices": {
+                            "country_code": "MA",
+                            "prices": [
+                                {
+                                    "amount": 799,
+                                    "currency": "usd",
+                                    "exponent": 2
+                                }
+                            ]
+                        }
+                    }
+                },
+                "items": [
+                    {
+                        "type": 1,
+                        "id": "1252405254499205233",
+                        "sku_id": "1252405251949203497"
+                    }
+                ],
+                "type": 1,
+                "premium_type": 0,
+                "category_sku_id": "1252404112650407998",
+                "google_sku_ids": {}
+            }
+        ]
+    },,
     {
         sku_id: '1245086656973901894',
         name: 'Arcade',
