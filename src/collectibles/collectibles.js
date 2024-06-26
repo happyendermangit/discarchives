@@ -18485,7 +18485,10 @@ const collectibles = [
 ];
 
 const previews = {
-    'Boost Relic': 'https://cdn.discordapp.com/assets/profile_effects/effects/2023-11-7/boost-relic/thumbnail.png',
+     Saya: 'https://cdn.discordapp.com/assets/profile_effects/effects/2024-06-18/saya/thumbnail.png',
+     Tocotoco: 'https://cdn.discordapp.com/assets/profile_effects/effects/2024-06-18/tocotoco/thumbnail.png',
+     'Wake Up!': 'https://cdn.discordapp.com/assets/profile_effects/effects/2024-06-18/wake-up/thumbnail.png', 
+     'Boost Relic': 'https://cdn.discordapp.com/assets/profile_effects/effects/2023-11-7/boost-relic/thumbnail.png',
     Cyberspace: 'https://cdn.discordapp.com/assets/profile_effects/effects/2023-11-7/cyberspace/thumbnail.png',
     'Hydro Blast': 'https://cdn.discordapp.com/assets/profile_effects/effects/b17d139f2e9/splash/thumbnail.png',
     Shatter: 'https://cdn.discordapp.com/assets/profile_effects/effects/b17d139f2e9/earthquake/thumbnail.png',
