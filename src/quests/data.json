@@ -1,5 +1,87 @@
 [
     {
+        "id": "1255209496771563600",
+        "config": {
+            "id": "1255209496771563600",
+            "config_version": 2,
+            "starts_at": "2024-07-08T17:00:00+00:00",
+            "expires_at": "2024-07-15T23:59:59+00:00",
+            "features": [3],
+            "experiments": {
+                "rollout": "2024-06_quests_zzz_quest",
+                "targeting": "2024-06_quests_zzz_quest_targeting",
+                "preview": "2024-06_quests_zzz_quest_preview"
+            },
+            "application": {
+                "link": "https://zenless.hoyoverse.com",
+                "id": "1257819671114289184",
+                "name": "Zenless Zone Zero"
+            },
+            "assets": {
+                "hero": "hero.jpg",
+                "quest_bar_hero": "quests_bar_hero.jpg",
+                "game_tile": "game_tile.png",
+                "logotype": "game_logotype.png"
+            },
+            "colors": {
+                "primary": "#4975E3",
+                "secondary": "#254493"
+            },
+            "messages": {
+                "quest_name": "ZZZ Version 1.0",
+                "game_title": "Zenless Zone Zero",
+                "game_publisher": "HoYoverse"
+            },
+            "task_config": {
+                "type": 1,
+                "join_operator": "or",
+                "tasks": {
+                    "STREAM_ON_DESKTOP": {
+                        "event_name": "STREAM_ON_DESKTOP",
+                        "target": 900,
+                        "external_ids": []
+                    }
+                }
+            },
+            "rewards_config": {
+                "assignment_method": 2,
+                "rewards": [
+                    {
+                        "type": 1,
+                        "sku_id": "1255257242035421295",
+                        "asset": "reward.jpg",
+                        "messages": {
+                            "name": "Version 1.0 Quest Bundle + Polychrome x30",
+                            "name_with_article": "the Version 1.0 Quest Bundle + Polychrome x30",
+                            "redemption_instructions_by_platform": {
+                                "0": "Log in to Zenless Zone Zero, click the menu button in the top-left of the in-game screen, head to \"More\" > \"Redemption Code,\" and follow the onscreen prompts to enter your redemption code. Your bundle will be sent to your in-game \"Mail.\" *Mail and Redemption Code functions will be unlocked during the Prologue \"Business x Strangeness x Justness.\""
+                            }
+                        },
+                        "approximate_count": 300000
+                    },
+                    {
+                        "type": 1,
+                        "sku_id": "1255259399585267772",
+                        "asset": "reward.jpg",
+                        "messages": {
+                            "name": "Version 1.0 Quest Bundle",
+                            "name_with_article": "the Version 1.0 Quest Bundle",
+                            "redemption_instructions_by_platform": {
+                                "0": "Log in to Zenless Zone Zero, click the menu button in the top-left of the in-game screen, head to \"More\" > \"Redemption Code,\" and follow the onscreen prompts to enter your redemption code. Your bundle will be sent to your in-game \"Mail.\" *Mail and Redemption Code functions will be unlocked during the Prologue \"Business x Strangeness x Justness.\""
+                            }
+                        },
+                        "approximate_count": null
+                    }
+                ],
+                "rewards_expire_at": "2024-08-15T23:59:59+00:00",
+                "platforms": [0]
+            }
+        },
+        "user_status": null,
+        "targeted_content": [],
+        "preview": false
+    },
+    {
         "id": "1252352602092339400",
         "config": {
             "id": "1252352602092339400",
@@ -64,29 +146,7 @@
                 "platforms": [0]
             }
         },
-        "user_status": {
-            "user_id": "1083437693347827764",
-            "quest_id": "1252352602092339400",
-            "enrolled_at": "2024-06-27T19:28:02.664035+00:00",
-            "completed_at": "2024-06-27T19:46:09.739231+00:00",
-            "claimed_at": "2024-06-27T19:48:49.075880+00:00",
-            "claimed_tier": null,
-            "last_stream_heartbeat_at": null,
-            "stream_progress_seconds": 0,
-            "dismissed_quest_content": 0,
-            "progress": {
-                "PLAY_ON_DESKTOP": {
-                    "value": 900,
-                    "event_name": "PLAY_ON_DESKTOP",
-                    "updated_at": "2024-06-27T19:46:09.739227+00:00",
-                    "completed_at": "2024-06-27T19:46:09.739231+00:00",
-                    "heartbeat": {
-                        "last_beat_at": "2024-06-27T19:46:09.739204+00:00",
-                        "expires_at": null
-                    }
-                }
-            }
-        },
+        "user_status": null,
         "targeted_content": [],
         "preview": false
     },
@@ -160,18 +220,7 @@
                 "platforms": [0]
             }
         },
-        "user_status": {
-            "user_id": "1083437693347827764",
-            "quest_id": "1245082221874774016",
-            "enrolled_at": "2024-06-26T22:59:07.801173+00:00",
-            "completed_at": null,
-            "claimed_at": null,
-            "claimed_tier": null,
-            "last_stream_heartbeat_at": null,
-            "stream_progress_seconds": 0,
-            "dismissed_quest_content": 0,
-            "progress": {}
-        },
+        "user_status": null,
         "targeted_content": [],
         "preview": false
     },
@@ -313,18 +362,7 @@
             "in_game_quest_config": null,
             "variants": [1]
         },
-        "user_status": {
-            "user_id": "1083437693347827764",
-            "quest_id": "1227767407154561034",
-            "enrolled_at": "2024-04-24T18:31:50.106332+00:00",
-            "completed_at": null,
-            "claimed_at": null,
-            "claimed_tier": null,
-            "last_stream_heartbeat_at": null,
-            "stream_progress_seconds": 0,
-            "dismissed_quest_content": 0,
-            "progress": {}
-        },
+        "user_status": null,
         "targeted_content": [],
         "preview": false
     },
@@ -377,18 +415,7 @@
             "in_game_quest_config": null,
             "variants": []
         },
-        "user_status": {
-            "user_id": "1083437693347827764",
-            "quest_id": "1227395355193118750",
-            "enrolled_at": "2024-04-17T19:27:37.098611+00:00",
-            "completed_at": "2024-04-17T20:02:06.617025+00:00",
-            "claimed_at": "2024-04-17T20:05:42.294609+00:00",
-            "claimed_tier": null,
-            "last_stream_heartbeat_at": "2024-04-17T20:02:06.617025+00:00",
-            "stream_progress_seconds": 903,
-            "dismissed_quest_content": 0,
-            "progress": {}
-        },
+        "user_status": null,
         "targeted_content": [],
         "preview": false
     },
@@ -432,18 +459,7 @@
             "in_game_quest_config": null,
             "variants": []
         },
-        "user_status": {
-            "user_id": "1083437693347827764",
-            "quest_id": "1218004004206804992",
-            "enrolled_at": "2024-04-03T14:23:02.734945+00:00",
-            "completed_at": null,
-            "claimed_at": null,
-            "claimed_tier": null,
-            "last_stream_heartbeat_at": null,
-            "stream_progress_seconds": 0,
-            "dismissed_quest_content": 0,
-            "progress": {}
-        },
+        "user_status": null,
         "targeted_content": [],
         "preview": false
     }
