@@ -40,7 +40,10 @@ function QuestsPage() {
                                             ></Preview>
                                         ) : (
                                             <img
-                                                src={`${assetBaseUrl}/${quest.config.assets.reward_tile}`}
+                                                src={`${assetBaseUrl}/${
+                                                    quest.config.assets?.reward_tile ||
+                                                    quest.config.rewards_config?.rewards?.[0]?.asset
+                                                }`}
                                                 className="quest-reward-logo"
                                             ></img>
                                         )}
