@@ -12642,6 +12642,163 @@ const collectibles = [
                 category_sku_id: '1217175518781243583',
                 google_sku_ids: {},
             },
+            {
+                sku_id: '1262457693965258874',
+                name: 'Freezer Bunny Lovebug',
+                summary: "A Sim's coolest companion! Available until September 30, 2024",
+                store_listing_id: '1262457676625875075',
+                banner: '1217260346872430592',
+                unpublished_at: null,
+                styles: {
+                    background_colors: [4620287, 1396431],
+                    button_colors: [4507647, 40447],
+                    confetti_colors: [4047871, 2718463, 16616447, 16727029],
+                },
+                items: [
+                    {
+                        type: 0,
+                        id: '1262457712474718319',
+                        sku_id: '1262457693965258874',
+                        asset: 'a_4946d58f2f74d54703a7aa26b494f62b',
+                        label: 'An adorable Freezer Bunny. It bounces upward into frame and throws hearts into the sky around the avatar.',
+                    },
+                ],
+                prices: {
+                    0: {
+                        countryPrices: {
+                            country_code: 'US',
+                            prices: [
+                                {
+                                    amount: 0,
+                                    currency: 'usd',
+                                    exponent: 2,
+                                },
+                            ],
+                        },
+                    },
+                    4: {
+                        countryPrices: {
+                            country_code: 'US',
+                            prices: [
+                                {
+                                    amount: 0,
+                                    currency: 'usd',
+                                    exponent: 2,
+                                },
+                            ],
+                        },
+                    },
+                    5: {
+                        countryPrices: {
+                            country_code: 'US',
+                            prices: [
+                                {
+                                    amount: 0,
+                                    currency: 'usd',
+                                    exponent: 2,
+                                },
+                            ],
+                        },
+                    },
+                    7: {
+                        countryPrices: {
+                            country_code: 'US',
+                            prices: [
+                                {
+                                    amount: 0,
+                                    currency: 'usd',
+                                    exponent: 2,
+                                },
+                            ],
+                        },
+                    },
+                },
+                type: 0,
+                premium_type: 0,
+                category_sku_id: '1217175518781243583',
+                google_sku_ids: {
+                    5: '1262457693965258874_1262873203785732268',
+                },
+            },
+            {
+                sku_id: '1262473048876122112',
+                name: 'Wingman Boba',
+                summary:
+                    'Your trusty VALORANT buddy, with a refreshing bubbly twist. Available to use until October 6, 2024.',
+                store_listing_id: '1262467379783401562',
+                banner: '1217260346872430592',
+                unpublished_at: null,
+                styles: {
+                    background_colors: [4620287, 1396431],
+                    button_colors: [4507647, 40447],
+                    confetti_colors: [4047871, 2718463, 16616447, 16727029],
+                },
+                items: [
+                    {
+                        type: 0,
+                        id: '1262473119986225162',
+                        sku_id: '1262473048876122112',
+                        asset: 'a_71b359795488ef63c5c39a46bb8f2e54',
+                        label: "VALORANT Agent Gekko's cute yellow creature presents you with a boba tea and happily floats beside your avatar, creating a delightful and playful atmosphere.",
+                    },
+                ],
+                prices: {
+                    0: {
+                        countryPrices: {
+                            country_code: 'US',
+                            prices: [
+                                {
+                                    amount: 0,
+                                    currency: 'usd',
+                                    exponent: 2,
+                                },
+                            ],
+                        },
+                    },
+                    4: {
+                        countryPrices: {
+                            country_code: 'US',
+                            prices: [
+                                {
+                                    amount: 0,
+                                    currency: 'usd',
+                                    exponent: 2,
+                                },
+                            ],
+                        },
+                    },
+                    5: {
+                        countryPrices: {
+                            country_code: 'US',
+                            prices: [
+                                {
+                                    amount: 0,
+                                    currency: 'usd',
+                                    exponent: 2,
+                                },
+                            ],
+                        },
+                    },
+                    7: {
+                        countryPrices: {
+                            country_code: 'US',
+                            prices: [
+                                {
+                                    amount: 0,
+                                    currency: 'usd',
+                                    exponent: 2,
+                                },
+                            ],
+                        },
+                    },
+                },
+                type: 0,
+                premium_type: 0,
+                category_sku_id: '1217175518781243583',
+                google_sku_ids: {
+                    5: '1262473048876122112_1262819212146114640',
+                },
+            },
         ],
     },
 ];
@@ -12651,7 +12808,6 @@ const previews = {
         'https://cdn.discordapp.com/assets/profile_effects/effects/2024-07-15/nice-profile/thumbnail_f44f333d.png',
     '1262491690971955284':
         'https://cdn.discordapp.com/assets/profile_effects/effects/2024-07-15/handsome-squidward/thumbnail_c1f759bf.png',
-
     '1262492035558932604':
         'https://cdn.discordapp.com/assets/profile_effects/effects/2024-07-15/doodlebob-takeover/thumbnail_23f31885.png',
     '1262492035558932607':
