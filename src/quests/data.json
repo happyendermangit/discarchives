@@ -1,163 +1,291 @@
 [
     {
-      "id": "1247320622933999616",
-      "config": {
-        "id": "1247320622933999616",
-        "config_version": 2,
-        "starts_at": "2024-07-26T17:00:00+00:00",
-        "expires_at": "2024-08-06T23:59:59+00:00",
-        "features": [
-          7
-        ],
-        "experiments": {
-          "rollout": "2024-06_quests_valorant_quest",
-          "targeting": "2024-06_quests_valorant_quest_targeting",
-          "preview": "2024-06_quests_valorant_quest_preview"
-        },
-        "application": {
-          "link": "https://playvalorant.com/?utm_source=discord&utm_medium=quest_game_link&utm_campaign=valorant_quest_2024",
-          "id": "700136079562375258",
-          "name": "VALORANT"
-        },
-        "assets": {
-          "hero": "valorant_quest_card_hero.png",
-          "quest_bar_hero": "valorant_quest_bar_hero.png",
-          "game_tile": "valorant_game_tile.png",
-          "logotype": "game_logotype.png"
-        },
-        "colors": {
-          "primary": "#FF4655",
-          "secondary": "#992A33"
-        },
-        "messages": {
-          "quest_name": "Wingman",
-          "game_title": "VALORANT",
-          "game_publisher": "Riot Games"
-        },
-        "task_config": {
-          "type": 1,
-          "join_operator": "or",
-          "tasks": {
-            "PLAY_ON_XBOX": {
-              "event_name": "PLAY_ON_XBOX",
-              "target": 900,
-              "external_ids": [
-                "2139646219"
-              ]
+        "id": "1248385850622869556",
+        "config": {
+            "id": "1248385850622869556",
+            "config_version": 2,
+            "starts_at": "2024-08-08T17:00:00+00:00",
+            "expires_at": "2024-08-16T23:59:59+00:00",
+            "features": [8],
+            "experiments": {
+                "rollout": "2024-06_quests_krunker_strike_quest",
+                "targeting": "2024-06_quests_krunker_strike_quest_targeting",
+                "preview": "2024-06_quests_krunker_strike_quest_preview"
             },
-            "PLAY_ON_PLAYSTATION": {
-              "event_name": "PLAY_ON_PLAYSTATION",
-              "target": 900,
-              "external_ids": [
-                "PPSA20676_00"
-              ]
+            "application": {
+                "link": "https://www.discord.com",
+                "id": "1011683823555199066",
+                "name": "Krunker Strike FRVR"
             },
-            "PLAY_ON_DESKTOP": {
-              "event_name": "PLAY_ON_DESKTOP",
-              "target": 900,
-              "external_ids": []
+            "assets": {
+                "hero": "hero.png",
+                "quest_bar_hero": "quest_bar_hero.png",
+                "game_tile": "game_tile.png",
+                "logotype": "game_logotype.png"
+            },
+            "colors": {
+                "primary": "#905100",
+                "secondary": "#114078"
+            },
+            "messages": {
+                "quest_name": "Mom, I’m Winning",
+                "game_title": "Krunker Strike",
+                "game_publisher": "FRVR"
+            },
+            "task_config": {
+                "type": 2,
+                "join_operator": "and",
+                "tasks": {
+                    "win": {
+                        "event_name": "win",
+                        "title": "Share 5 Krunker Strike wins with Discord",
+                        "description": "Share your next 5 wins in the Krunker Strike FRVR Activity with Discord to win a Methane Mask in game!",
+                        "target": 5
+                    }
+                },
+                "enrollment_url": "https://www.discord.com",
+                "developer_application_id": "1011683823555199066"
+            },
+            "rewards_config": {
+                "assignment_method": 1,
+                "rewards": [
+                    {
+                        "type": 2,
+                        "sku_id": "1248385929727447132",
+                        "asset": "reward_tile.png",
+                        "messages": {
+                            "name": "Methane Mask",
+                            "name_with_article": "a Methane Mask",
+                            "redemption_instructions_by_platform": {
+                                "0": "Open the Discord Quest Panel in Krunker Strike or through Discord Gift Inventory and click the Claim Reward button to receive your reward. Equip your reward in game and show them what you’ve got!"
+                            }
+                        }
+                    }
+                ],
+                "rewards_expire_at": "2024-09-15T23:59:59+00:00",
+                "platforms": [0]
             }
-          }
         },
-        "rewards_config": {
-          "assignment_method": 1,
-          "rewards": [
-            {
-              "type": 3,
-              "sku_id": "1262473048876122112",
-              "asset": "reward-2.mp4",
-              "messages": {
-                "name": "Wingman Boba Avatar Decoration",
-                "name_with_article": "a Wingman Boba Avatar Decoration",
-                "redemption_instructions_by_platform": {
-                  "0": "Placeholder copy!"
-                }
-              },
-              "expires_at": "2024-10-06T23:59:59+00:00"
-            }
-          ],
-          "rewards_expire_at": "2024-10-06T23:59:59+00:00",
-          "platforms": [
-            0
-          ]
-        }
-      },
-      "user_status": null,
-      "targeted_content": [],
-      "preview": false
+        "user_status": null,
+        "targeted_content": [],
+        "preview": false
     },
     {
-      "id": "1262457652043055125",
-      "config": {
-        "id": "1262457652043055125",
-        "config_version": 2,
-        "starts_at": "2024-07-25T17:00:00+00:00",
-        "expires_at": "2024-07-30T23:59:59+00:00",
-        "features": [
-          3
-        ],
-        "experiments": {
-          "rollout": "2024-07_the_sims_4_quest",
-          "targeting": "2024-07_the_sims_4_quest_targeting",
-          "preview": "2024-07_the_sims_4_preview"
-        },
-        "application": {
-          "link": "https://www.ea.com/games/the-sims/the-sims-4/store/addons/the-sims-4-lovestruck-expansion-pack?utm_source=discord&utm_medium=quest_game_link&utm_campaign=sims_quest_2024",
-          "id": "359509007423242240",
-          "name": "The Sims 4"
-        },
-        "assets": {
-          "hero": "hero.jpg",
-          "quest_bar_hero": "quest_bar_hero.jpg",
-          "game_tile": "game_tile.png",
-          "logotype": "logotype.svg"
-        },
-        "colors": {
-          "primary": "#F268B6",
-          "secondary": "#5EFFFE"
-        },
-        "messages": {
-          "quest_name": "Lovestruck",
-          "game_title": "The Sims™ 4",
-          "game_publisher": "EA Games"
-        },
-        "task_config": {
-          "type": 1,
-          "join_operator": "or",
-          "tasks": {
-            "PLAY_ON_DESKTOP": {
-              "event_name": "PLAY_ON_DESKTOP",
-              "target": 900,
-              "external_ids": []
-            }
-          }
-        },
-        "rewards_config": {
-          "assignment_method": 1,
-          "rewards": [
-            {
-              "type": 3,
-              "sku_id": "1262457693965258874",
-              "asset": "reward_preview.mp4",
-              "messages": {
-                "name": "Freezer Bunny Lovebug Avatar Decoration",
-                "name_with_article": "a Freezer Bunny Lovebug Avatar Decoration",
-                "redemption_instructions_by_platform": {
-                  "0": "This collectible can be redeemed on Discord! Go to your Gift Inventory to redeem and equip."
+        "id": "1262518692248420433",
+        "config": {
+            "id": "1262518692248420433",
+            "config_version": 2,
+            "starts_at": "2024-08-08T17:00:00+00:00",
+            "expires_at": "2024-08-14T23:59:59+00:00",
+            "features": [3, 4],
+            "experiments": {
+                "rollout": "2024-07_quests_gta_online_quest",
+                "targeting": "2024-07_quests_gta_online_quest_targeting",
+                "preview": "2024-07_quests_gta_online_quest_preview"
+            },
+            "application": {
+                "link": "https://www.rockstargames.com/gta-online?utm_source=discord&utm_medium=p_sitedisplay&utm_campaign=00:discord-gtao-20240808&utm_content=us-eng",
+                "id": "356876176465199104",
+                "name": "Grand Theft Auto V"
+            },
+            "assets": {
+                "hero": "hero.jpg",
+                "quest_bar_hero": "quest_bar_hero.jpg",
+                "game_tile": "game_tile.png",
+                "logotype": "logotype_stacked.png"
+            },
+            "colors": {
+                "primary": "#44475C",
+                "secondary": "#44475C"
+            },
+            "messages": {
+                "quest_name": "GTA Online",
+                "game_title": "GTA Online",
+                "game_publisher": "Rockstar Games"
+            },
+            "task_config": {
+                "type": 1,
+                "join_operator": "or",
+                "tasks": {
+                    "PLAY_ON_DESKTOP": {
+                        "event_name": "PLAY_ON_DESKTOP",
+                        "target": 900,
+                        "external_ids": []
+                    }
                 }
-              },
-              "expires_at": "2024-09-30T23:59:59+00:00"
+            },
+            "rewards_config": {
+                "assignment_method": 1,
+                "rewards": [
+                    {
+                        "type": 3,
+                        "sku_id": "1262518692248420434",
+                        "asset": "reward.mp4",
+                        "messages": {
+                            "name": "Los Santos Avatar Decoration",
+                            "name_with_article": "a Los Santos Avatar Decoration",
+                            "redemption_instructions_by_platform": {
+                                "0": "This collectible can be redeemed on Discord! Go to your Gift Inventory to redeem and equip."
+                            }
+                        },
+                        "expires_at": "2024-10-14T23:59:59+00:00"
+                    }
+                ],
+                "rewards_expire_at": "2024-09-13T23:59:59+00:00",
+                "platforms": [0]
             }
-          ],
-          "rewards_expire_at": "2024-09-30T23:59:59+00:00",
-          "platforms": [
-            0
-          ]
-        }
-      },
-      "user_status": null,
-      "targeted_content": [],
-      "preview": false
+        },
+        "user_status": null,
+        "targeted_content": [],
+        "preview": false
+    },
+    {
+        "id": "1247320622933999616",
+        "config": {
+            "id": "1247320622933999616",
+            "config_version": 2,
+            "starts_at": "2024-07-26T17:00:00+00:00",
+            "expires_at": "2024-08-06T23:59:59+00:00",
+            "features": [7],
+            "experiments": {
+                "rollout": "2024-06_quests_valorant_quest",
+                "targeting": "2024-06_quests_valorant_quest_targeting",
+                "preview": "2024-06_quests_valorant_quest_preview"
+            },
+            "application": {
+                "link": "https://playvalorant.com/?utm_source=discord&utm_medium=quest_game_link&utm_campaign=valorant_quest_2024",
+                "id": "700136079562375258",
+                "name": "VALORANT"
+            },
+            "assets": {
+                "hero": "valorant_quest_card_hero.png",
+                "quest_bar_hero": "valorant_quest_bar_hero.png",
+                "game_tile": "valorant_game_tile.png",
+                "logotype": "game_logotype.png"
+            },
+            "colors": {
+                "primary": "#FF4655",
+                "secondary": "#992A33"
+            },
+            "messages": {
+                "quest_name": "Wingman",
+                "game_title": "VALORANT",
+                "game_publisher": "Riot Games"
+            },
+            "task_config": {
+                "type": 1,
+                "join_operator": "or",
+                "tasks": {
+                    "PLAY_ON_XBOX": {
+                        "event_name": "PLAY_ON_XBOX",
+                        "target": 900,
+                        "external_ids": ["2139646219"]
+                    },
+                    "PLAY_ON_PLAYSTATION": {
+                        "event_name": "PLAY_ON_PLAYSTATION",
+                        "target": 900,
+                        "external_ids": ["PPSA20676_00"]
+                    },
+                    "PLAY_ON_DESKTOP": {
+                        "event_name": "PLAY_ON_DESKTOP",
+                        "target": 900,
+                        "external_ids": []
+                    }
+                }
+            },
+            "rewards_config": {
+                "assignment_method": 1,
+                "rewards": [
+                    {
+                        "type": 3,
+                        "sku_id": "1262473048876122112",
+                        "asset": "reward-2.mp4",
+                        "messages": {
+                            "name": "Wingman Boba Avatar Decoration",
+                            "name_with_article": "a Wingman Boba Avatar Decoration",
+                            "redemption_instructions_by_platform": {
+                                "0": "Placeholder copy!"
+                            }
+                        },
+                        "expires_at": "2024-10-06T23:59:59+00:00"
+                    }
+                ],
+                "rewards_expire_at": "2024-10-06T23:59:59+00:00",
+                "platforms": [0]
+            }
+        },
+        "user_status": null,
+        "targeted_content": [],
+        "preview": false
+    },
+    {
+        "id": "1262457652043055125",
+        "config": {
+            "id": "1262457652043055125",
+            "config_version": 2,
+            "starts_at": "2024-07-25T17:00:00+00:00",
+            "expires_at": "2024-07-30T23:59:59+00:00",
+            "features": [3],
+            "experiments": {
+                "rollout": "2024-07_the_sims_4_quest",
+                "targeting": "2024-07_the_sims_4_quest_targeting",
+                "preview": "2024-07_the_sims_4_preview"
+            },
+            "application": {
+                "link": "https://www.ea.com/games/the-sims/the-sims-4/store/addons/the-sims-4-lovestruck-expansion-pack?utm_source=discord&utm_medium=quest_game_link&utm_campaign=sims_quest_2024",
+                "id": "359509007423242240",
+                "name": "The Sims 4"
+            },
+            "assets": {
+                "hero": "hero.jpg",
+                "quest_bar_hero": "quest_bar_hero.jpg",
+                "game_tile": "game_tile.png",
+                "logotype": "logotype.svg"
+            },
+            "colors": {
+                "primary": "#F268B6",
+                "secondary": "#5EFFFE"
+            },
+            "messages": {
+                "quest_name": "Lovestruck",
+                "game_title": "The Sims™ 4",
+                "game_publisher": "EA Games"
+            },
+            "task_config": {
+                "type": 1,
+                "join_operator": "or",
+                "tasks": {
+                    "PLAY_ON_DESKTOP": {
+                        "event_name": "PLAY_ON_DESKTOP",
+                        "target": 900,
+                        "external_ids": []
+                    }
+                }
+            },
+            "rewards_config": {
+                "assignment_method": 1,
+                "rewards": [
+                    {
+                        "type": 3,
+                        "sku_id": "1262457693965258874",
+                        "asset": "reward_preview.mp4",
+                        "messages": {
+                            "name": "Freezer Bunny Lovebug Avatar Decoration",
+                            "name_with_article": "a Freezer Bunny Lovebug Avatar Decoration",
+                            "redemption_instructions_by_platform": {
+                                "0": "This collectible can be redeemed on Discord! Go to your Gift Inventory to redeem and equip."
+                            }
+                        },
+                        "expires_at": "2024-09-30T23:59:59+00:00"
+                    }
+                ],
+                "rewards_expire_at": "2024-09-30T23:59:59+00:00",
+                "platforms": [0]
+            }
+        },
+        "user_status": null,
+        "targeted_content": [],
+        "preview": false
     },
     {
         "id": "1255209496771563600",
