@@ -14005,6 +14005,82 @@ const collectibles = [
                     5: '1262473048876122112_1262819212146114640',
                 },
             },
+             {
+                sku_id: '1262518692248420434',
+                name: 'Los Santos',
+                summary: 'Available until October 14, 2024',
+                store_listing_id: '1270100768363515914',
+                banner: '1217260346872430592',
+                unpublished_at: null,
+                styles: {
+                    background_colors: [4620287, 1396431],
+                    button_colors: [4507647, 40447],
+                    confetti_colors: [4047871, 2718463, 16616447, 16727029],
+                },
+                items: [
+                    {
+                        type: 0,
+                        id: '1270100836491595816',
+                        sku_id: '1262518692248420434',
+                        asset: 'a_aa2dc0f4bfa22bd81ea3990c52d29a96',
+                        label: 'Reads "City of Los Santos, Founded 1781", and shows a helicopter with a searchlight flying into the frame.',
+                    },
+                ],
+                type: 0,
+                prices: {
+                    0: {
+                        countryPrices: {
+                            country_code: 'US',
+                            prices: [
+                                {
+                                    amount: 0,
+                                    currency: 'usd',
+                                    exponent: 2,
+                                },
+                            ],
+                        },
+                    },
+                    4: {
+                        countryPrices: {
+                            country_code: 'US',
+                            prices: [
+                                {
+                                    amount: 0,
+                                    currency: 'usd',
+                                    exponent: 2,
+                                },
+                            ],
+                        },
+                    },
+                    5: {
+                        countryPrices: {
+                            country_code: 'US',
+                            prices: [
+                                {
+                                    amount: 0,
+                                    currency: 'usd',
+                                    exponent: 2,
+                                },
+                            ],
+                        },
+                    },
+                    7: {
+                        countryPrices: {
+                            country_code: 'US',
+                            prices: [
+                                {
+                                    amount: 0,
+                                    currency: 'usd',
+                                    exponent: 2,
+                                },
+                            ],
+                        },
+                    },
+                },
+                premium_type: 0,
+                category_sku_id: '1217175518781243583',
+                google_sku_ids: {},
+            },
         ],
     },
 ];
