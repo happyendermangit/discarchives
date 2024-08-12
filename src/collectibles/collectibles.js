@@ -55,7 +55,7 @@ const collectibles = [
                 },
                 "prices": {
                     "0": {
-                        "country_prices": {
+                        "countryPrices": {
                             "country_code": "US",
                             "prices": [
                                 {
@@ -67,7 +67,7 @@ const collectibles = [
                         }
                     },
                     "4": {
-                        "country_prices": {
+                        "countryPrices": {
                             "country_code": "US",
                             "prices": [
                                 {
@@ -79,7 +79,7 @@ const collectibles = [
                         }
                     },
                     "5": {
-                        "country_prices": {
+                        "countryPrices": {
                             "country_code": "US",
                             "prices": [
                                 {
@@ -91,7 +91,7 @@ const collectibles = [
                         }
                     },
                     "7": {
-                        "country_prices": {
+                        "countryPrices": {
                             "country_code": "US",
                             "prices": [
                                 {
@@ -146,7 +146,7 @@ const collectibles = [
                 },
                 "prices": {
                     "0": {
-                        "country_prices": {
+                        "countryPrices": {
                             "country_code": "US",
                             "prices": [
                                 {
@@ -158,7 +158,7 @@ const collectibles = [
                         }
                     },
                     "4": {
-                        "country_prices": {
+                        "countryPrices": {
                             "country_code": "US",
                             "prices": [
                                 {
@@ -170,7 +170,7 @@ const collectibles = [
                         }
                     },
                     "5": {
-                        "country_prices": {
+                        "countryPrices": {
                             "country_code": "US",
                             "prices": [
                                 {
@@ -182,7 +182,7 @@ const collectibles = [
                         }
                     },
                     "7": {
-                        "country_prices": {
+                        "countryPrices": {
                             "country_code": "US",
                             "prices": [
                                 {
@@ -237,7 +237,7 @@ const collectibles = [
                 },
                 "prices": {
                     "0": {
-                        "country_prices": {
+                        "countryPrices": {
                             "country_code": "US",
                             "prices": [
                                 {
@@ -249,7 +249,7 @@ const collectibles = [
                         }
                     },
                     "4": {
-                        "country_prices": {
+                        "countryPrices": {
                             "country_code": "US",
                             "prices": [
                                 {
@@ -261,7 +261,7 @@ const collectibles = [
                         }
                     },
                     "5": {
-                        "country_prices": {
+                        "countryPrices": {
                             "country_code": "US",
                             "prices": [
                                 {
@@ -273,7 +273,7 @@ const collectibles = [
                         }
                     },
                     "7": {
-                        "country_prices": {
+                        "countryPrices": {
                             "country_code": "US",
                             "prices": [
                                 {
@@ -328,7 +328,7 @@ const collectibles = [
                 },
                 "prices": {
                     "0": {
-                        "country_prices": {
+                        "countryPrices": {
                             "country_code": "US",
                             "prices": [
                                 {
@@ -340,7 +340,7 @@ const collectibles = [
                         }
                     },
                     "4": {
-                        "country_prices": {
+                        "countryPrices": {
                             "country_code": "US",
                             "prices": [
                                 {
@@ -352,7 +352,7 @@ const collectibles = [
                         }
                     },
                     "5": {
-                        "country_prices": {
+                        "countryPrices": {
                             "country_code": "US",
                             "prices": [
                                 {
@@ -364,7 +364,7 @@ const collectibles = [
                         }
                     },
                     "7": {
-                        "country_prices": {
+                        "countryPrices": {
                             "country_code": "US",
                             "prices": [
                                 {
@@ -419,7 +419,7 @@ const collectibles = [
                 },
                 "prices": {
                     "0": {
-                        "country_prices": {
+                        "countryPrices": {
                             "country_code": "US",
                             "prices": [
                                 {
@@ -431,7 +431,7 @@ const collectibles = [
                         }
                     },
                     "4": {
-                        "country_prices": {
+                        "countryPrices": {
                             "country_code": "US",
                             "prices": [
                                 {
@@ -443,7 +443,7 @@ const collectibles = [
                         }
                     },
                     "5": {
-                        "country_prices": {
+                        "countryPrices": {
                             "country_code": "US",
                             "prices": [
                                 {
@@ -455,7 +455,7 @@ const collectibles = [
                         }
                     },
                     "7": {
-                        "country_prices": {
+                        "countryPrices": {
                             "country_code": "US",
                             "prices": [
                                 {
@@ -510,7 +510,7 @@ const collectibles = [
                 },
                 "prices": {
                     "0": {
-                        "country_prices": {
+                        "countryPrices": {
                             "country_code": "US",
                             "prices": [
                                 {
@@ -522,7 +522,7 @@ const collectibles = [
                         }
                     },
                     "4": {
-                        "country_prices": {
+                        "countryPrices": {
                             "country_code": "US",
                             "prices": [
                                 {
@@ -534,7 +534,7 @@ const collectibles = [
                         }
                     },
                     "5": {
-                        "country_prices": {
+                        "countryPrices": {
                             "country_code": "US",
                             "prices": [
                                 {
@@ -546,7 +546,7 @@ const collectibles = [
                         }
                     },
                     "7": {
-                        "country_prices": {
+                        "countryPrices": {
                             "country_code": "US",
                             "prices": [
                                 {
@@ -601,7 +601,7 @@ const collectibles = [
                 },
                 "prices": {
                     "0": {
-                        "country_prices": {
+                        "countryPrices": {
                             "country_code": "US",
                             "prices": [
                                 {
@@ -613,7 +613,7 @@ const collectibles = [
                         }
                     },
                     "4": {
-                        "country_prices": {
+                        "countryPrices": {
                             "country_code": "US",
                             "prices": [
                                 {
@@ -625,7 +625,7 @@ const collectibles = [
                         }
                     },
                     "5": {
-                        "country_prices": {
+                        "countryPrices": {
                             "country_code": "US",
                             "prices": [
                                 {
@@ -637,7 +637,7 @@ const collectibles = [
                         }
                     },
                     "7": {
-                        "country_prices": {
+                        "countryPrices": {
                             "country_code": "US",
                             "prices": [
                                 {
@@ -692,7 +692,7 @@ const collectibles = [
                 },
                 "prices": {
                     "0": {
-                        "country_prices": {
+                        "countryPrices": {
                             "country_code": "US",
                             "prices": [
                                 {
@@ -704,7 +704,7 @@ const collectibles = [
                         }
                     },
                     "4": {
-                        "country_prices": {
+                        "countryPrices": {
                             "country_code": "US",
                             "prices": [
                                 {
@@ -716,7 +716,7 @@ const collectibles = [
                         }
                     },
                     "5": {
-                        "country_prices": {
+                        "countryPrices": {
                             "country_code": "US",
                             "prices": [
                                 {
@@ -728,7 +728,7 @@ const collectibles = [
                         }
                     },
                     "7": {
-                        "country_prices": {
+                        "countryPrices": {
                             "country_code": "US",
                             "prices": [
                                 {
@@ -783,7 +783,7 @@ const collectibles = [
                 },
                 "prices": {
                     "0": {
-                        "country_prices": {
+                        "countryPrices": {
                             "country_code": "US",
                             "prices": [
                                 {
@@ -795,7 +795,7 @@ const collectibles = [
                         }
                     },
                     "4": {
-                        "country_prices": {
+                        "countryPrices": {
                             "country_code": "US",
                             "prices": [
                                 {
@@ -807,7 +807,7 @@ const collectibles = [
                         }
                     },
                     "5": {
-                        "country_prices": {
+                        "countryPrices": {
                             "country_code": "US",
                             "prices": [
                                 {
@@ -819,7 +819,7 @@ const collectibles = [
                         }
                     },
                     "7": {
-                        "country_prices": {
+                        "countryPrices": {
                             "country_code": "US",
                             "prices": [
                                 {
@@ -872,7 +872,7 @@ const collectibles = [
                 },
                 "prices": {
                     "0": {
-                        "country_prices": {
+                        "countryPrices": {
                             "country_code": "US",
                             "prices": [
                                 {
@@ -884,7 +884,7 @@ const collectibles = [
                         }
                     },
                     "4": {
-                        "country_prices": {
+                        "countryPrices": {
                             "country_code": "US",
                             "prices": [
                                 {
@@ -896,7 +896,7 @@ const collectibles = [
                         }
                     },
                     "5": {
-                        "country_prices": {
+                        "countryPrices": {
                             "country_code": "US",
                             "prices": [
                                 {
@@ -908,7 +908,7 @@ const collectibles = [
                         }
                     },
                     "7": {
-                        "country_prices": {
+                        "countryPrices": {
                             "country_code": "US",
                             "prices": [
                                 {
@@ -961,7 +961,7 @@ const collectibles = [
                 },
                 "prices": {
                     "0": {
-                        "country_prices": {
+                        "countryPrices": {
                             "country_code": "US",
                             "prices": [
                                 {
@@ -973,7 +973,7 @@ const collectibles = [
                         }
                     },
                     "4": {
-                        "country_prices": {
+                        "countryPrices": {
                             "country_code": "US",
                             "prices": [
                                 {
@@ -985,7 +985,7 @@ const collectibles = [
                         }
                     },
                     "5": {
-                        "country_prices": {
+                        "countryPrices": {
                             "country_code": "US",
                             "prices": [
                                 {
@@ -997,7 +997,7 @@ const collectibles = [
                         }
                     },
                     "7": {
-                        "country_prices": {
+                        "countryPrices": {
                             "country_code": "US",
                             "prices": [
                                 {
@@ -1050,7 +1050,7 @@ const collectibles = [
                 },
                 "prices": {
                     "0": {
-                        "country_prices": {
+                        "countryPrices": {
                             "country_code": "US",
                             "prices": [
                                 {
@@ -1062,7 +1062,7 @@ const collectibles = [
                         }
                     },
                     "4": {
-                        "country_prices": {
+                        "countryPrices": {
                             "country_code": "US",
                             "prices": [
                                 {
@@ -1074,7 +1074,7 @@ const collectibles = [
                         }
                     },
                     "5": {
-                        "country_prices": {
+                        "countryPrices": {
                             "country_code": "US",
                             "prices": [
                                 {
@@ -1086,7 +1086,7 @@ const collectibles = [
                         }
                     },
                     "7": {
-                        "country_prices": {
+                        "countryPrices": {
                             "country_code": "US",
                             "prices": [
                                 {
@@ -1139,7 +1139,7 @@ const collectibles = [
                 },
                 "prices": {
                     "0": {
-                        "country_prices": {
+                        "countryPrices": {
                             "country_code": "US",
                             "prices": [
                                 {
@@ -1151,7 +1151,7 @@ const collectibles = [
                         }
                     },
                     "4": {
-                        "country_prices": {
+                        "countryPrices": {
                             "country_code": "US",
                             "prices": [
                                 {
@@ -1163,7 +1163,7 @@ const collectibles = [
                         }
                     },
                     "5": {
-                        "country_prices": {
+                        "countryPrices": {
                             "country_code": "US",
                             "prices": [
                                 {
@@ -1175,7 +1175,7 @@ const collectibles = [
                         }
                     },
                     "7": {
-                        "country_prices": {
+                        "countryPrices": {
                             "country_code": "US",
                             "prices": [
                                 {
