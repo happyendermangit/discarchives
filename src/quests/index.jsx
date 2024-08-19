@@ -16,7 +16,7 @@ function QuestsPage() {
         <>
             <NavBar></NavBar>
             <div className="mt-10 mb-10">
-                <h1>Quests archives:</h1>
+                <h1 className='font-bold'>Quests Archives:</h1>
                 <div className="quests">
                     {data.map((quest) => {
                         const assetBaseUrl = `https://cdn.discordapp.com/assets/quests/${
