@@ -16503,9 +16503,9 @@ const collectibles = [
 const previews = {
     "1277733175069773864": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-08-26/chocolate-discordos/thumbnail.png",
     "1277733175111717006": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-08-26/heartzilla-purple/thumbnail.png",
-    "1271174907081789524": "https/cdn.discordapp.com/assets/profile_effects/effects/2024-08-08/onis-curse/thumbnail.png",
-    "1271175049168031815": "https/cdn.discordapp.com/assets/profile_effects/effects/2024-08-08/of-ink-and-steel/thumbnail.png",
-    "1271175120437641261": "https/cdn.discordapp.com/assets/profile_effects/effects/2024-08-08/sakura-katana/thumbnail.png",
+    "1271174907081789524": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-08-08/onis-curse/thumbnail.png",
+    "1271175049168031815": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-08-08/of-ink-and-steel/thumbnail.png",
+    "1271175120437641261": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-08-08/sakura-katana/thumbnail.png",
     "1139323098370424932": "https://cdn.discordapp.com/assets/profile_effects/effects/2023-11-7/boost-relic/thumbnail.png",
     "1139323103193878569": "https://cdn.discordapp.com/assets/profile_effects/effects/2023-11-7/cyberspace/thumbnail.png",
     "1139323092645183591": "https://cdn.discordapp.com/assets/profile_effects/effects/b17d139f2e9/splash/thumbnail.png",
